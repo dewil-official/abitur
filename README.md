@@ -19,11 +19,11 @@ The german Abitur is the highest grade you can get here, making you qualified fo
 
 Jedes Fach wird in diesem Repo mindestens mit einer Datei erwähnt, die beschreibt, was in der jeweiligen Prüfung thematisiert wird und wie Ich mich darauf vorbereite.
 
-| Kurs                      | Fach                        | Link     |
-| ------------------------- | --------------------------- | -------- |
-| P1 - Erhöhtes Niveau      | 👨🏽‍💻 Informatik              | [Link]() |
-| P2 - Erhöhtes Niveau      | 📕 Deutsch                   | [Link]() |
-| P3 - Erhöhtes Niveau      | 🎰 Mathe                     | [Link]() |
-| P4 - Grundlegendes Niveau | 💾 Informations-Verarbeitung | [Link]() |
-| P5 - Mündlich             | 📈 Wirtschaft                | [Link]() |
+| Kurs                      | Fach                        | Link                 |
+| ------------------------- | --------------------------- | -------------------- |
+| P1 - Erhöhtes Niveau      | 👨🏽‍💻 Informatik              | [Link](it/THEMEN.md) |
+| P2 - Erhöhtes Niveau      | 📕 Deutsch                   | [Link](de/THEMEN.md) |
+| P3 - Erhöhtes Niveau      | 🎰 Mathe                     | [Link](ma/THEMEN.md) |
+| P4 - Grundlegendes Niveau | 💾 Informations-Verarbeitung | [Link](iv/THEMEN.md) |
+| P5 - Mündlich             | 📈 Wirtschaft                | [Link](bv/THEMEN.md) |
 
