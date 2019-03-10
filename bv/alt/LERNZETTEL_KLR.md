@@ -80,6 +80,32 @@ Hier noch mehr Fachbegriffe:
   Bei der Stückbetrachtung können sich die Fixkosten auf mehr Produkte verteilen, während die Variablen Kosten in der Stückbetrachtung konstant bleiben.
 - 🔹 **Gesamtkosten** sind die Summe aller fixen und variablen Kosten.
 
+### 📈 Kostenverläufe
+
+Die Veränderungen der Kosten können tabellarisch oder grafisch dargestellt werden.
+
+#### 📶 Verhältnisse
+
+- **Proportionale Kosten** verändern sich in der Gesamtbetrachtung im gleichen Verhältnis wie die Produktionsmenge. In der Stückbetrachtung bleiben sie Konstant.
+- **Überproportionale (Progressive) Kosten** verändern sich in der Gesamtbetrachtung stärker als die Produktionsmenge, aber auch in der Stückbetrachtung ist dies der Fall. D.h. die Kosten steigen z.B. schneller als die Produktionsmenge.
+- **Unterproportionale (Degressive) Kosten** verändern sich langsamer als die Produktionsmenge, d.h. in der Gesamtbetrachtung steigen die Gesamtkosten langsamer als die Produktionsmenge und in der Stückbetrachtung fallen die Stückkosten bei erhöhter Produktionsmenge.
+
+Betrachtet man bei diesen Kostenverhältnissen die **Mischkosten** (Variable + Fixe Kosten) anstatt nur der Fixkosten, verschiebt sich die Kostenfunktion einfach um die Fixkosten nach oben.
+
+#### ⚖ Kostenfunktionen
+
+Der Verlauf der Kosten lässt sich auch mathematisch als Funktion darstellen.
+
+- `K = f(x)` - Die Gesamtkosten `K` sind gleich eine Funktion `f()` von der Leistungsmenge `x`
+
+- `K = Kfix + Kv` - Die Gesamtkosten `K` ist gleich Fixkosten `Kfix` plus Variable Kosten `Kv`
+
+- `kv = Kv / x` - Die variablen Stückkosten `kv` sind gleich die variablen Stückkosten `Kv` durch die Produktionsmenge
+
+- `K = Kfix + kv * x` - Die lineare Kostenfunktion ist gleich die Fixkosten plus die variablen Stückkosten mal Produktionsmenge
+
+  Die 
+
 ## 🚚 Kostenstellenrechnung
 
 Die im letzten Kapitel erfassten Kosten müssen jetzt den verschiedenen **Funktionsbereichen** eines Unternehmens zugeordnet werden, um danach in der Kostenträgerrechnung den Produkten zugeordnet werden zu können.
