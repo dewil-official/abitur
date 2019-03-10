@@ -34,9 +34,20 @@ Als kleines **Inhaltsverzeichnis** hier eine detailliertere Übersicht aller Unt
 | **Weitere Themen**<br />- Kostenremanenz<br />- Kritische Produktmenge<br />- Beschäftigungsgrad | **Bestandsänderung**<br />- Mehrung / Minderung              |                                                              |
 |                                                              | **Vorgehen**<br />1. Kosten übernehmen<br />2. Verteilung Gemeinkosten<br />3. Summen pro Funktionsbereich<br />4. Zuschlagssätze |                                                              |
 
-## 👨‍🎓 Kosten / Leistungen
+Es kann grundlegend auf zwei verschiedene Arten vorgegangen werden, um eine KLR durchzuführen:
 
-Bevor die Rechenarbeit losgeht, sollten grundlegend die Begrifflichkeiten geklärt sein.
+#### ⭐ Vollkosten- / Teilkostenrechnung
+
+- Die **Vollkostenrechnung** geht von den anfallenden Kosten aus und ordnet diese dann den Produkten zu. So soll am Ende ein kostendeckender Verkaufspreis festgelegt werden. *In der Klausur ist ausschließlich diese Vorgehensweise wichtig.*
+- Die **Teilkostenrechnung** geht vom erzielbaren Marktpreis eines Produktes aus und zieht davon direkt die Einzelkosten ab, um am Ende dann die übrigen Fixkosten mit dem Überschuss zu decken. Hier wird also rückwärts gerechnet und die eigenen Kosten werden vom Marktpreis abhängig gemacht. Man nennt sie auch **Deckungsbeitragsrechnung**. *Diese Art wird in der Klausur nicht dran kommen.*
+
+## 🤑 Kostenartenrechnung
+
+Wie eingangs erwähnt, dient die **Kostenartenrechnung** der **Erfassung aller Kosten** innerhalb einer Abrechnungsperiode.
+
+Doch bevor die Rechenarbeit losgeht, sollten grundlegend die Begrifflichkeiten geklärt sein:
+
+### ♟ Kosten / Leistungen
 
 #### Kosten
 
@@ -55,9 +66,19 @@ Als **Leistungen** bezeichnet man die *betrieblichen Erträge*, also die Wertzug
 - *Bestandsmehrungen*, sind Leistungen da man den Warenwert (die Waren) in seinem Betrieb lagert.
 - *Eigenleistungen* sind auch ein Wertzugang für den Betrieb (also eine Leistung).
 
-#### Vollkosten- / Teilkostenrechnung
+### 📌 Kostenarten
 
-- Die **Vollkostenrechnung** geht von den anfallenden Kosten aus und ordnet diese dann den Produkten zu. So soll am Ende ein kostendeckender Verkaufspreis festgelegt werden. In der Klausur ist ausschließlich diese Vorgehensweise wichtig.
-- Die **Teilkostenrechnung** geht vom erzielbaren Marktpreis eines Produktes aus und zieht davon direkt die Einzelkosten ab, um am Ende dann die übrigen Fixkosten mit dem Überschuss zu decken. Hier wird also rückwärts gerechnet und die eigenen Kosten werden vom Marktpreis abhängig gemacht. Man nennt sie auch **Deckungsbeitragsrechnung**. Diese Art wird in der Klausur nicht dran kommen.
 
-## 🤑 Kostenartenrechnung
+
+## 🚚 Kostenstellenrechnung
+
+Die im letzten Kapitel erfassten Kosten müssen jetzt den verschiedenen **Funktionsbereichen** eines Unternehmens zugeordnet werden, um danach in der Kostenträgerrechnung den Produkten zugeordnet werden zu können.
+
+### Verrechnung
+
+Das *Ziel* ist es immer, jedem Produkt (jeder Leistung) genau seine Kosten zuordnen zu können, um dann einen guten Preis festzulegen.
+
+Dementsprechend muss man unterscheiden:
+
+- **Einzelkosten** lassen sich einem Produkt direkt zuordnen, beispielsweise durch Materialkosten, oder durch Mitarbeiter, die nur für ein bestimmtes Produkt arbeiten.
+- **Gemeinkosten** lassen sich nicht direkt zuordnen und müssen *verrechnet* werden. Beispiele dafür sind oft Mitarbeiterlöhne, oder auch Mietkosten für Hallen, die nicht nur einem Produkt dienen.
