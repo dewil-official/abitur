@@ -68,7 +68,17 @@ Als **Leistungen** bezeichnet man die *betrieblichen Erträge*, also die Wertzug
 
 ### 📌 Kostenarten
 
+Hier noch mehr Fachbegriffe:
 
+- 🔴 **Einzelkosten** lassen sich einem Produkt direkt zuordnen, beispielsweise durch Materialkosten, oder durch Mitarbeiter, die nur für ein bestimmtes Produkt arbeiten.
+- 🔴 **Gemeinkosten** lassen sich nicht direkt zuordnen und müssen *verrechnet* werden. Beispiele dafür sind oft Mitarbeiterlöhne, oder auch Mietkosten für Hallen, die nicht nur einem Produkt dienen.
+- 🔶 **Variable Kosten** verändern sich bei Änderung der Produktionsmenge.
+- 🔶 **Fixkosten** verändern sich mit Änderung der Produktionsmenge nicht.
+   => **Sprungfixe** Kosten bleiben nur innerhalb einer bestimmten Produktionsmenge konstant. Dann müssen z.B. neue Mitarbeiter eingestellt oder neue Maschinen gekauft werden.
+- 🔅 **Gesamtbetrachtung** bedeutet, man sieht sich nur die insgesamt anfallenden Kosten einer Periode unabhängig der Produktionsmenge an.
+- 🔅 **Stückbetrachtung** bezieht die Gesamtkosten einer Periode auf die Stückzahl, indem man die Kosten durch die Produktionsmenge teilt.
+  Bei der Stückbetrachtung können sich die Fixkosten auf mehr Produkte verteilen, während die Variablen Kosten in der Stückbetrachtung konstant bleiben.
+- 🔹 **Gesamtkosten** sind die Summe aller fixen und variablen Kosten.
 
 ## 🚚 Kostenstellenrechnung
 
@@ -77,8 +87,3 @@ Die im letzten Kapitel erfassten Kosten müssen jetzt den verschiedenen **Funkti
 ### Verrechnung
 
 Das *Ziel* ist es immer, jedem Produkt (jeder Leistung) genau seine Kosten zuordnen zu können, um dann einen guten Preis festzulegen.
-
-Dementsprechend muss man unterscheiden:
-
-- **Einzelkosten** lassen sich einem Produkt direkt zuordnen, beispielsweise durch Materialkosten, oder durch Mitarbeiter, die nur für ein bestimmtes Produkt arbeiten.
-- **Gemeinkosten** lassen sich nicht direkt zuordnen und müssen *verrechnet* werden. Beispiele dafür sind oft Mitarbeiterlöhne, oder auch Mietkosten für Hallen, die nicht nur einem Produkt dienen.
