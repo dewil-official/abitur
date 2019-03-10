@@ -104,7 +104,7 @@ Der Verlauf der Kosten lässt sich auch mathematisch als Funktion darstellen.
 
 - `K = Kfix + kv * x` - Die lineare Kostenfunktion ist gleich die Fixkosten plus die variablen Stückkosten mal Produktionsmenge
 
-  Die 
+  Die **Grenzkosten** 
 
 ## 🚚 Kostenstellenrechnung
 
