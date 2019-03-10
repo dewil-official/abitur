@@ -34,3 +34,30 @@ Als kleines **Inhaltsverzeichnis** hier eine detailliertere Übersicht aller Unt
 | **Weitere Themen**<br />- Kostenremanenz<br />- Kritische Produktmenge<br />- Beschäftigungsgrad | **Bestandsänderung**<br />- Mehrung / Minderung              |                                                              |
 |                                                              | **Vorgehen**<br />1. Kosten übernehmen<br />2. Verteilung Gemeinkosten<br />3. Summen pro Funktionsbereich<br />4. Zuschlagssätze |                                                              |
 
+## 👨‍🎓 Kosten / Leistungen
+
+Bevor die Rechenarbeit losgeht, sollten grundlegend die Begrifflichkeiten geklärt sein.
+
+#### Kosten
+
+Als **Kosten** bezeichnet man den Verzehr an Gütern und Leistungen innerhalb einer Periode, die für die zur Erstellung betrieblicher Leistungen anfallen.
+
+- Kosten könnten durch den *Verbrauch von Gütern* oder durch *erbrachte Dienste* entstehen.
+- Kosten werden in **Geldeinheiten** *(GE)* bewertet.
+  *Das ist deswegen praktisch, weil man so auch z.B. Wohnfläche in die effektiven Kosten umwandelt - da man genau diese ermitteln will. Protipp: Nutze einfach Euro.*
+- Kosten werden durch Leistungen erzeugt, sie sind daher *leistungsbedingt*.
+
+#### Leistungen
+
+Als **Leistungen** bezeichnet man die *betrieblichen Erträge*, also die Wertzugänge (in einem Zeitraum).
+
+- *Umsatzerlöse*, die direkt durch den Verkauf von Waren entstehen, sind Leistungen.
+- *Bestandsmehrungen*, sind Leistungen da man den Warenwert (die Waren) in seinem Betrieb lagert.
+- *Eigenleistungen* sind auch ein Wertzugang für den Betrieb (also eine Leistung).
+
+#### Vollkosten- / Teilkostenrechnung
+
+- Die **Vollkostenrechnung** geht von den anfallenden Kosten aus und ordnet diese dann den Produkten zu. So soll am Ende ein kostendeckender Verkaufspreis festgelegt werden. In der Klausur ist ausschließlich diese Vorgehensweise wichtig.
+- Die **Teilkostenrechnung** geht vom erzielbaren Marktpreis eines Produktes aus und zieht davon direkt die Einzelkosten ab, um am Ende dann die übrigen Fixkosten mit dem Überschuss zu decken. Hier wird also rückwärts gerechnet und die eigenen Kosten werden vom Marktpreis abhängig gemacht. Man nennt sie auch **Deckungsbeitragsrechnung**. Diese Art wird in der Klausur nicht dran kommen.
+
+## 🤑 Kostenartenrechnung
