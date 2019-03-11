@@ -144,6 +144,24 @@ Folgen der Kostenremanenz sind unter anderem:
 - Stückkosten steigen erheblich
 - Unternehmen kann evtl. nicht durch Preissenkungen entgegenwirken, weil sie das Geld zur Kostendeckung brauchen.
 
+### 🐱‍👤 Sonstiges
+
+#### 💹 Gewinnschwelle
+
+Die Gewinnschwelle, auch **Break-Even-Point** genannt, liegt an der Stelle, wo der Gesamterlös gleich den Gesamtkosten sind ( `E = K` ). 
+
+Das **Gewinnmaximum** liegt außerdem an der Stelle, wo der Gesamtgewinn bzw. Stückgewinn am größten ist. Bei einer linearen Verteilung liegt das Maximum an der Kapazitätsgrenze, also an der obersten Grenze für die maximale Produktionsmenge.
+
+#### 💢 Kritische Produktmenge
+
+Oft steht ein Unternehmen vor der Wahl, die eigenen Maschinen aufzurüsten, was die Fixkosten erhöht, sich aber bei einer hohen Produktionsmenge lohnt, weil dadurch die variablen Kosten sinken.
+
+Die Stelle an der sich die Gesamtkosten der beiden Fertigungsverfahren überschneiden, nennt man daher **kritische Produktmenge**, da sich ab diesem Punkt ggf. ein anderes Verfahren (mit geringeren variablen Kosten) mehr lohnt.
+
+#### 🤠 Beschäftigungsgrad
+
+Der Beschäftigungsgrad sagt aus, wieviel Prozent von der Kapazität (also wie viel maximal pro Zeitraum produzierbar wäre) aktuell erreicht sind. Dazu teilt man die aktuelle Produktionsmenge durch die Kapazität. Um diese Dezimalzahl (z.B. 0,43) in Prozent umzuwandeln rechnet man sie mal 100. (z.B. 43%)
+
 ## 🚚 Kostenstellenrechnung
 
 Die im letzten Kapitel erfassten Kosten müssen jetzt den verschiedenen **Funktionsbereichen** eines Unternehmens zugeordnet werden, um danach in der Kostenträgerrechnung den Produkten zugeordnet werden zu können.
