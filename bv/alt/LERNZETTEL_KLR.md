@@ -124,6 +124,26 @@ Die variablen Kosten ergeben sich aus der *Kostendifferenz* zweier Zeiträume ge
 Beispiel: Im Oktober wurden 800Stk. für 34 000€ hergestellt. Im November waren es 1000Stk. für 40 000€. Die Differenz von 200Stk. kostet also 6 000€, d.h. 30€/Stk. sind die variablen Kosten.
 Zieht man nun die variablen Kosten (30€ * 800 Stk. = 24 000€) von den Mischkosten ab (34 000€ - 24 000€ = 10 000€) erhält man die Fixkosten. Diese letzte Rechnung lässt sich zu einem beliebigen Zeitpunkt durchführen, da die Fixkosten ja konstant bleiben.
 
+#### ♐ Kostenremanenz
+
+Wenn die Produktionsmenge in einer Unternehmung zurück geht, dann dauert es aufgrund verschiedener Faktoren etwas länger, bis auch die Kosten entsprechend sinken können. Insbesondere bei den Fixkosten tritt dieses Problem auf. Dieses Phänomen nennt man **Kostenremanenz**.
+
+Gründe für die Kostenremanenz sind unter anderem:
+
+- Gesetzliche Kündigungsbestimmungen
+- Tarifverträge
+- Sozialpläne
+- Abfindungszahlungen
+- Abnahmeverpflichtungen
+- Verzögerungen beim Verkauf von stillgelegten Maschinen
+- Erhöhte Lagerkosten bei Absatzstockungen
+
+Folgen der Kostenremanenz sind unter anderem:
+
+- Die Kostenkurve verändert sich
+- Stückkosten steigen erheblich
+- Unternehmen kann evtl. nicht durch Preissenkungen entgegenwirken, weil sie das Geld zur Kostendeckung brauchen.
+
 ## 🚚 Kostenstellenrechnung
 
 Die im letzten Kapitel erfassten Kosten müssen jetzt den verschiedenen **Funktionsbereichen** eines Unternehmens zugeordnet werden, um danach in der Kostenträgerrechnung den Produkten zugeordnet werden zu können.
