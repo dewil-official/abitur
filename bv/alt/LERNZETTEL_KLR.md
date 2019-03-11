@@ -166,6 +166,30 @@ Der Beschäftigungsgrad sagt aus, wieviel Prozent von der Kapazität (also wie v
 
 Die im letzten Kapitel erfassten Kosten müssen jetzt den verschiedenen **Funktionsbereichen** eines Unternehmens zugeordnet werden, um danach in der Kostenträgerrechnung den Produkten zugeordnet werden zu können.
 
+Diese Funktionsbereiche sind die Folgenden:
+
+- Material
+- Fertigung
+- Verwaltung
+- Vertrieb
+
 ### Verrechnung
 
-Das *Ziel* ist es immer, jedem Produkt (jeder Leistung) genau seine Kosten zuordnen zu können, um dann einen guten Preis festzulegen.
+Das *Ziel* ist es immer, jedem Produkt (jeder Leistung) genau seine Kosten zuordnen zu können, um dann einen guten Preis festzulegen. Die **Einzelkosten** lassen sich dementsprechend direkt den Funktionsbereichen zuordnen, während die **Gemeinkosten** über mehrere Funktionsbereiche hinweg nach einem *Verteilungsschlüssel* aufgeteilt werden.
+
+Auch Gemeinkosten selbst können teilweise schon **direkt** zugeordnet werden, z.B. bei messbaren Dingen wie Stromkosten, die in den verschiedenen Bereichen genau festzustellen sind.
+
+Andere Gemeinkosten müssen wie eben erwähnt **indirekt** zugeordnet werden, z.B. Miete, die dann einfach nach dem Verhältnis der verwendeten Fläche aufgeteilt werden kann.
+
+```
+HINWEIS: Ab hier bietet es sich an, die Berechnungen innerhalb eines BABs durchzuführen. BAB steht für Betriebs-Abrechnungsbogen und ist eine tabellarische Form der Kostenstellenrechnung. Im Folgenden wird genau diese Tabelle dafür verwendet, zunächst werden alle Gemeinkosten aufgeteilt und später dann den Einzelkosten zugeordnet.
+```
+
+In der Praxis sieht also ein solcher BAB so aus:
+
+| Gemeinkostenarten | Gemeinkosten | Verteilungsgrundlage | Material   | Fertigung  | Verwaltung | Vertrieb   |
+| ----------------- | ------------ | -------------------- | ---------- | ---------- | ---------- | ---------- |
+| z.B. Miete        | z.B. 16.000€ | z.B. 600m²           | z.B. 300m² | z.B. 150m² | z.B. 50m²  | z.B. 100m² |
+
+Es kann dann beliebig viele Zeilen geben, je nach dem wie viele verschiedene Kostenarten angefallen sind. (Miete, Heizung, Strom, Löhne, Sozialabgaben etc.)
+
