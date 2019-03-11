@@ -193,3 +193,56 @@ In der Praxis sieht also ein solcher BAB so aus:
 
 Es kann dann beliebig viele Zeilen geben, je nach dem wie viele verschiedene Kostenarten angefallen sind. (Miete, Heizung, Strom, Löhne, Sozialabgaben etc.)
 
+Wendet man den Verteilungsschlüssel dann an, sieht das so aus:
+
+| Gemeinkostenarten | Gemeinkosten | Verteilungsgrundlage | Material | Fertigung | Verwaltung | Vertrieb  |
+| ----------------- | ------------ | -------------------- | -------- | --------- | ---------- | --------- |
+| z.B. Miete        | z.B. 16.000€ | z.B. 600m²           | 8.000€   | 4.000€    | 1.333,33€  | 2.666,67€ |
+
+Es wird also beispielsweise beim Material `(300m² / 600m²) * 16.000€ = 8.000€` gerechnet. Man nimmt also das Verhältnis des jeweiligen Bereichs zu der Verteilungsgrundlage (Gesamtmenge) um dieses Verhältnis dann mit den Gemeinkosten mal zu nehmen.
+
+Dieses Verfahren wird dann beliebig oft wiederholt, bis am Ende die Kosten der Funktionsbereiche zusammengezählt werden. Es ergibt sich also die Summe der Gemeinkosten z.B. für Material.
+
+### Zuschlagssätze
+
+Die sogenannten **Zuschlagssätze** sollen einen prozentuales Verhältnis der Gemeinkosten zu den realen Kosten, also Herstellkosten o.ä. (je nach Funktionsbereich) ausdrücken, die dann später auf diese raufgerechnet werden können, um die Kosten innerhalb eines Produktes aufzuschlüsseln.
+
+Die **Zuschlagsgrundlagen** sind immer die tatsächlichen Einzelkosten der Funktionsbereiche, auf die sich die Zuschlagssätze dann beziehen. Das sind in der Praxis die folgenden Dinge:
+
+| Material                         | Fertigung       | Verwaltung                          | Vertrieb                            |
+| -------------------------------- | --------------- | ----------------------------------- | ----------------------------------- |
+| Verbrauch von Fertigungsmaterial | Fertigungslöhne | Herstellkosten der Rechnungsperiode | Herstellkosten der Rechnungsperiode |
+
+### Herstellkosten & Selbstkosten
+
+Für die Zuschlagsgrundlagen, aber auch später für die Ermittlung der Bestandveränderungen ist es wichtig, die folgenden Werte zu ermitteln:
+
+| Name                                | Erklärung                                                    |
+| ----------------------------------- | ------------------------------------------------------------ |
+| Herstellkosten der Rechnungsperiode | Die Herstellkosten sind die Summe aller Material- und Fertigungskosten. Das schließt also auch Materialgemeinkosten und Fertigungsgemeinkosten mit ein. |
+| Herstellkosten des Umsatzes         | Sind gleich die Herstellkosten der Rechnungsperiode unter Berücksichtigung der Bestandsveränderungen. |
+| Selbstkosten der Rechnungsperiode   | Die Selbstkosten der Rechnungsperiode sind die Herstellkosten der Rechnungsperiode plus die Verwaltungs- und Vertriebsgemeinkosten. |
+| Selbstkosten des Umsatzes           | Sind gleich die Selbstkosten der Rechnungsperiode unter Berücksichtigung der Bestandsveränderungen. |
+
+### Bestandsveränderungen
+
+Abschließend, um die tatsächlichen Kosten einer Rechnungsperiode zu errechnen, die ggf. vom Produktpreis mit getragen werden müssen, sollten auch Lager- bzw. Bestandsveränderungen berücksichtigt werden.
+
+Wenn mein Lagerbestand um 15.000€ steigt, dann habe Ich eine Bestandsmehrung, die also von den Herstellkosten des Umsatzes (oder auch bei den Selbstkosten) mit abgezogen werden müssen.
+
+Bei einer Bestandsminderung müssen logischerweise die Bestände auf den Umsatz draufaddiert werden, weil sie aus dem Lager heraus zusätzlich verkauft wurden.
+
+Es kann außerdem ggf. zwischen Unfertigen Erzeugnissen (UE) und Fertigen Erzeugnissen (FE) unterschieden werden. Man berechnet diese aber gleich, nur halt separat. Wichtig ist es allerdings trotzdem, auch die Unfertigen Erzeugnisse mit zu berechnen, da die Herstellkosten ja zum Teil schon aufgewendet wurden.
+
+## 😄 Ablauf / Beispiel
+
+Um die Kostenarten- & Kostenstellenrechnung anschaulich darzustellen, empfehle Ich einen Blick auf meine Unterrichtsschriftstücke, die hier erreichbar sind:
+
+| 🎓 Dateien aus dem Unterricht                                 |
+| ------------------------------------------------------------ |
+| *26.02.2019* **BAB no. 1** [Link](../unterricht/26.02.2019 - BAB no1.xlsx) |
+| *01.03.2019* **BAB no. 2** [Link](../unterricht/01.03.2019 - BAB no2.xlsx) |
+| *05.03.2019* **Begriffe KLR (von Lam)** [Link](../unterricht/05.03.2019 - Begriffe KLR von Lam.xlsx) |
+| *05.03.2019* **Übersicht KLR (von Lam)** [Link](../unterricht/05.03.2019 - Übersicht KLR von Lam.docx) |
+| *05.03.2019* **BAB mit Bestandsveränderungen** [Link](../unterricht/05.03.2019 - BAB mit Bestandsveränderungen.xlsx) |
+
