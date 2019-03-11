@@ -104,7 +104,25 @@ Der Verlauf der Kosten lässt sich auch mathematisch als Funktion darstellen.
 
 - `K = Kfix + kv * x` - Die lineare Kostenfunktion ist gleich die Fixkosten plus die variablen Stückkosten mal Produktionsmenge
 
-  Die **Grenzkosten** 
+  Die **Grenzkosten** `k´` ist die Kostenmenge, um die sich die Gesamtkosten für eine Zeiteinheit (z.B. eine Ausbringungsmenge) ändern
+
+#### ➰ Erlösfunktionen
+
+Der Erlös funktioniert als Gegenstück zu den Kosten, also wie viel Geld mit den verkauften Leistungen verdient wird. Auch diese lassen sich mathematisch darstellen.
+
+- `E = f(x)` - Der Gesamterlös `E` sind als Funktion `f()` abhängig von der Ausbringungsmenge `x`
+- `E = p*x` - Der Gesamterlös `E` ergibt auch als Produkt aus dem Produktpreis `p` und der Ausbringungsmenge `x`
+- `e = E/x = p` - Der Stückerlös ist gleich der Produktpreis `p` und gleich der Differenz aus dem Gesamterlös `E` und der Ausbringungsmenge `x`
+- `e = E´ = p` - Der Grenzerlös, also die Erlösveränderung pro Ausbringungsmenge, ist auch gleich dem Produktpreis `p` und dem Stückerlös `e`
+
+#### 🔀 Kostenauflösung
+
+Wenn mindestens zwei **Mischkosten** sowie deren Produktionsmenge gegeben sind, lassen sich die variablen Kosten und damit auch die Fixkosten heraustrennen.
+
+Die variablen Kosten ergeben sich aus der *Kostendifferenz* zweier Zeiträume geteilt durch die Produktmengendifferenz der beiden Zeiträume. Wenn man dann die variablen Kosten von den Mischkosten abzieht, bleiben die Fixkosten über.
+
+Beispiel: Im Oktober wurden 800Stk. für 34 000€ hergestellt. Im November waren es 1000Stk. für 40 000€. Die Differenz von 200Stk. kostet also 6 000€, d.h. 30€/Stk. sind die variablen Kosten.
+Zieht man nun die variablen Kosten (30€ * 800 Stk. = 24 000€) von den Mischkosten ab (34 000€ - 24 000€ = 10 000€) erhält man die Fixkosten. Diese letzte Rechnung lässt sich zu einem beliebigen Zeitpunkt durchführen, da die Fixkosten ja konstant bleiben.
 
 ## 🚚 Kostenstellenrechnung
 
