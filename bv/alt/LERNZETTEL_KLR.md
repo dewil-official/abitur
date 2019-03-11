@@ -100,7 +100,7 @@ Der Verlauf der Kosten lässt sich auch mathematisch als Funktion darstellen.
 
 - `K = Kfix + Kv` - Die Gesamtkosten `K` ist gleich Fixkosten `Kfix` plus Variable Kosten `Kv`
 
-- `kv = Kv / x` - Die variablen Stückkosten `kv` sind gleich die variablen Stückkosten `Kv` durch die Produktionsmenge
+- `kv = Kv / x` - Die variablen Stückkosten `kv` sind gleich die variablen Gesamtkosten `Kv` durch die Produktionsmenge
 
 - `K = Kfix + kv * x` - Die lineare Kostenfunktion ist gleich die Fixkosten plus die variablen Stückkosten mal Produktionsmenge
 
