@@ -42,7 +42,7 @@ Der Syntax ist die **Struktur des Codes**, jede Programmiersprache hat in der Re
 
 Jede *Website* ist in sogenannte **Elemente** gegliedert.
 
-Jedes **Element** besteht aus einem einleitenden Tag `<name>` und einem abschließenden Tag `</name>`. 
+Jedes **Element** besteht aus einem *einleitenden Tag* `<name>` und einem *abschließenden Tag* `</name>`. 
 
 Jeder **Tag** besteht immer aus *dreieckigen Klammern* ("< >"), dazwischen steht der *name* des Tags und dann ggf. noch [Attribute](#attribute).
 
@@ -61,5 +61,11 @@ Hier ist ein *"Absatz"-Element*, festgelegt durch einen einleitenden *"p"-Tag* u
 <br />
 ```
 
+In diesem Beispiel wird der *"br"*-Tag verwendet, ein *Zeilenumbruch*. Es hängt also vom Typ ab, ob ein Tag selbstschließend ist.
+
 Prinzipiell funktionieren beide Schreibweisen gleich, nur zeigt das **Slash optisch**, dass es sich um ein *"Self-Closing-Tag"* handelt. Allerdings empfehle ich das Weglassen, weil ältere Browser das `<br />` in `<br >>` konvertieren, was Fehler produziert.
+
+#### Verschachtelung
+
+Ein weiteres *grundlegendes* Konzept
 
