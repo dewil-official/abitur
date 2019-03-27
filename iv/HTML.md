@@ -4,9 +4,12 @@
 
 ### 📋 Inhalt
 
-[TOC]
+1. **[Historie](#historie)**
+2. **[HTML Syntax](#html_syntax)**
 
-### 📔 Historie
+------
+
+### 📔 Historie <a name="historie"></a>
 
 In jedem Fall ist das verfolgte Ziel bei unserem Thema, das **Erstellen einer Website**. Heutzutage ist völlig klar, was eine Website ist und wie sie funktioniert, jedoch sollte man sich kurz mit der Herkunft dieser Sprache beschäftigen, um zu verstehen, *warum* sie so aufgebaut ist, *wie* sie aufgebaut ist.
 
@@ -23,5 +26,5 @@ Hier geht es zur Inhaltsuebersicht: <a href="inhalt.html">Link</a>
 
 Schon ein Jahr später, 1993, gab es den ersten Vorschlag für für **Web-Stylesheets**. HTML-Dokumente hatten zwar die Möglichkeit geschaffen, Informationen darzustellen, es fehlte aber jegliche Möglichkeit, diese Darstellung zu personalisieren. Am 10. Oktober 1994 veröffentliche ein Mitarbeiter des CERN den ersten Vorschlag für „***Cascading HTML Style Sheets***“. Ab diesem Zeitpunkt arbeiteten mehrere Teams an dem gleichen Ziel, letztendlich setzte sich das CSS wie wir es heute kennen in einer frühen Version durch. CSS ist dabei genauso wenig eine Programmiersprache wie HTML. **Cascading Style Sheets**, zu deutsch „Mehrstufige Formatvorlagen“ ist eine Formatierungssprache, vor allem für HTML, aber auch für SVG und XML Dokumente.
 
-### 💬 HTML Syntax
+### 💬 HTML Syntax <a name="html_syntax"></a>
 
