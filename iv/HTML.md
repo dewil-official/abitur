@@ -6,6 +6,7 @@
 
 1. **[Historie](#historie)**
 2. **[HTML Syntax](#html_syntax)**
+3. **[HTML Attribute](#attribute)**
 
 ------
 
@@ -67,5 +68,26 @@ Prinzipiell funktionieren beide Schreibweisen gleich, nur zeigt das **Slash opti
 
 #### Verschachtelung
 
-Ein weiteres *grundlegendes* Konzept
+Ein weiteres *grundlegendes* Konzept ist die Verschachtelung. Denn **zwischen** den beiden **Tags eines Elementes** können beliebig viele **weitere Elemente** stehen.
+
+```html
+<div> <p>Text.</p> </div>
+```
+
+Hier steht zum Beispiel ein *p*-Absatz in einem *div*-Abschnitt. Die Formatierung zwischen den Tags kann beliebig viele Leerzeichen, TABs oder Absätze haben. Außerdem können auch mehrere Elemente in einem einzigen Element stehen:
+
+```html
+<div>
+    <h1>Abitur</h1>
+    <p>Lernzettel over 9000</p>
+</div>
+```
+
+Das Layout sieht auch genau so aus: Es gibt einen Abschnitt (div), in dem eine Überschrift (h1) und darunter ein kurzer Textabsatz (p) zu finden sind.
+
+*Wichtig* ist hier aber auch die **gute Lesbarkeit** des Codes, vernünftiges Einrücken des Codes kann schon viel helfen.
+
+------
+
+### 🎚 HTML Attribute <a name="attribute"></a>
 
