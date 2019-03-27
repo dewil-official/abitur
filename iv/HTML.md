@@ -26,5 +26,40 @@ Hier geht es zur Inhaltsuebersicht: <a href="inhalt.html">Link</a>
 
 Schon ein Jahr später, 1993, gab es den ersten Vorschlag für für **Web-Stylesheets**. HTML-Dokumente hatten zwar die Möglichkeit geschaffen, Informationen darzustellen, es fehlte aber jegliche Möglichkeit, diese Darstellung zu personalisieren. Am 10. Oktober 1994 veröffentliche ein Mitarbeiter des CERN den ersten Vorschlag für „***Cascading HTML Style Sheets***“. Ab diesem Zeitpunkt arbeiteten mehrere Teams an dem gleichen Ziel, letztendlich setzte sich das CSS wie wir es heute kennen in einer frühen Version durch. CSS ist dabei genauso wenig eine Programmiersprache wie HTML. **Cascading Style Sheets**, zu deutsch „Mehrstufige Formatvorlagen“ ist eine Formatierungssprache, vor allem für HTML, aber auch für SVG und XML Dokumente.
 
+------
+
 ### 💬 HTML Syntax <a name="html_syntax"></a>
+
+> "Unter Syntax versteht man ein Regelsystem zur Kombination elementarer Zeichen zu zusammengesetzten Zeichen in natürlichen oder künstlichen Zeichensystemen."
+
+Der Syntax ist die **Struktur des Codes**, jede Programmiersprache hat in der Regel ihre eigenen Syntax-Regeln, auch wenn viele Regeln auch in vielen Sprachen gleich sind.
+
+#### Tags
+
+```html
+<tag>Inhalt</tag>
+```
+
+Jede *Website* ist in sogenannte **Elemente** gegliedert.
+
+Jedes **Element** besteht aus einem einleitenden Tag `<name>` und einem abschließenden Tag `</name>`. 
+
+Jeder **Tag** besteht immer aus *dreieckigen Klammern* ("< >"), dazwischen steht der *name* des Tags und dann ggf. noch [Attribute](#attribute).
+
+Beispiel:
+
+```html
+<p>Ein Textabsatz.</p>
+```
+
+Hier ist ein *"Absatz"-Element*, festgelegt durch einen einleitenden *"p"-Tag* und einen abschließenden *"p"-Tag*. In diesem Element steht dann der Text, dessen Layout durch die Eigenschaften von "p" festgelegt wird.
+
+**Ausnahme:** Einige Tags müssen nicht wieder geschlossen werden, sogenannte *"Self-Closing-Tags"*. Diese Elemente können dann keinen weiteren "Inhalt" haben, da sie ja nur aus einem Tag bestehen. Es gibt dabei zwei Möglichkeiten, diese Tags zu schreiben:
+
+```
+<br>
+<br />
+```
+
+Prinzipiell funktionieren beide Schreibweisen gleich, nur zeigt das **Slash optisch**, dass es sich um ein *"Self-Closing-Tag"* handelt. Allerdings empfehle ich das Weglassen, weil ältere Browser das `<br />` in `<br >>` konvertieren, was Fehler produziert.
 
