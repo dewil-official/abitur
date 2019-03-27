@@ -91,3 +91,9 @@ Das Layout sieht auch genau so aus: Es gibt einen Abschnitt (div), in dem eine �
 
 ### 🎚 HTML Attribute <a name="attribute"></a>
 
+Die *Elemente* einer Seite können verschiedene **Eigenschaften** haben, diese nennt man *Attribute*. Die verschiedenen Elementarten haben festgelegte Attribute, die verändert werden können. Beispielsweise ein Bildobjekt könnte so aussehen:
+
+```
+<img src="datei.png" alt="läd..">
+```
+
