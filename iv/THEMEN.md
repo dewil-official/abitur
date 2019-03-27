@@ -17,3 +17,5 @@ Hier auf GitHub ist außerdem ein Archiv aller _älteren_ Lernzettel und Dokumen
 - Lehrerdokumente: [Link](lehrerdocs)
 - Meine Dokumente: [Link](mydocs) 
 
+Ich werde allerdings alle wichtigen Informationen aus diesen Dokumenten in meine eigenen Lernzettel (*siehe oben*) übertragen.
+
