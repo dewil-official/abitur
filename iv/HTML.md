@@ -9,6 +9,7 @@
 3. **[HTML Attribute](#attribute)**
 4. **[HTML Dokumente](#dokumente)**
 5. **[HTML Elemente](#elemente)**
+6. **[CSS Grundlagen](#css_grund)**
 
 ------
 
@@ -218,4 +219,104 @@ Um Textabschnitte zu gliedern, können Überschriften in den Größen 1 bis 6 ve
 ```
 
 #### `<img>` - Bilder
+
+Um Bilder & Grafiken einzubinden, gibt es das img-Element. Beispiel:
+
+```html
+<img src=“bild.png“ alt=“Läd…“>
+```
+
+Bilder benötigen zunächst den Dateipfad mithilfe von „src“ und hier ist noch „alt“ als Alternativtext angegeben, falls das Bild noch nicht geladen hat.
+
+Bilder haben prinzipiell Eigenschaften wie Breite und Höhe, diese können mithilfe von „height“ und „width“ Attributen innerhalb des Tags angegeben werden. Es empfiehlt sich allerdings, die Bildergrößen in CSS zu definieren, damit das Design auf allen Gerätegrößen gut funktioniert.
+
+#### `<table>` - Tabellen
+
+HTML unterstützt auch Tabellen, diese werden durch folgende Tags definiert:
+
+- `<table>` Die gesamte Tabelle `</table>`
+  - `<tr>` Eine Reihe / Zeile der Tabelle `</tr>`
+    - `<td>` Ein einzelner Datensatz / Eine Zelle `</td>`
+    - `<th>` Genau wie *td*, nur mit spezieller Formatierung für Kopfzeilen `</th>`
+
+Eine Tabelle könnte in der Praxis also wie folgt aussehen:
+
+```html
+<table>
+	<tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+	</tr>
+	<tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+	</tr>
+	<tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+	</tr>
+</table>
+```
+
+Tabellen werden auch in derselben Reihenfolge geladen, in der sie im Code stehen. Also Zeile für Zeile und dann von links nach rechts. Das wird wichtig, sobald Zellen nicht mehr 1x1 groß sind:
+
+Es ist möglich, einzelne Zellen (`<td>`) über mehrere Reihen oder Zeilen hinweg zu skalieren. Das passiert mithilfe der `rowspan` oder `colspan` Attribute. Beispiel:
+
+```html
+<table>
+	<tr>
+        <th>Firstname</th>
+        <th colspan="2">Lastname</th>
+	</tr>
+	<tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td rowspan="2">50</td>
+	</tr>
+	<tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+	</tr>
+</table>
+```
+
+#### `<ul>,<ol>` - Listen
+
+Es gibt zwei Arten von Listen: *Ungeordnete* Listen und *Geordnete* Listen.
+
+```html
+<ul>
+    <li>ASUS</li>
+    <li>MSI</li>
+    <li>EVGA</li>
+    <li>ZOTAC</li>
+</ul>
+```
+
+*ul* steht für *unordered List* und *ol* steht für *ordered List*. Dementsprechend muss man die Tags benennen. *li* steht für *list item*, also für die einzelnen Punkte.
+
+Geordnete Liste können z.B. Zahlen am Anfang haben, während sie ungeordnet z.B. nur Punkte stehen haben.
+
+Alle weiteren Einstellungen der Listen erfolgen durch CSS.
+
+#### `<!-- Kommentare -->`
+
+Jeder gut strukturierte Code sollte ab und zu Kommentare enthalten, um anderen Leuten die eigenen Ideen, die nicht aus dem Code hervorgehen, zu erklären. Kommentare sind aber keine Entschuldigung für schlechten Code!
+
+```html
+<!-- Dies ist ein Kommentar in HTML. -->
+```
+
+#### Loading Order
+
+> Objekte werden in der Reihenfolge geladen, in der sie auf der Seite auftauchen!
+
+Denke daran, wenn Du z.B. Skripte einbindest. Tust Du dies am Anfang deines Dokumentes, kann das Skript noch nicht auf ungeladene Elemente weiter unten in der HTML Datei zugreifen.
+
+------
+
+### 🦄 CSS Grundlagen <a name="css_grund"></a>
 
