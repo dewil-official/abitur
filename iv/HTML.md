@@ -395,3 +395,54 @@ In CSS, Kommentare stehen zwischen **/*** und ***/**.
 
 ### 🛒 CSS Eigenschaften <a name="css_eig"></a>
 
+Wenn der Selektor festgelegt ist, lassen sich die Eigenschaften der Elemente ändern.
+
+```css
+p {
+ font-size: 40px;
+}
+```
+
+In diesem Beispiel wird die Schriftgröße verändert, aller Textabsätze auf der Seite.
+
+Es hängt immer von dem gewählten Element ab, welche Eigenschaften veränderbar sind. Eine Liste aller wichtigen Eigenschaften folgt später.
+
+#### Farben
+
+Grundfarben gibt es in CSS vordefiniert, z.B. „red“ oder „black“ kennt jeder Browser. Außerdem können Farben wie folgt definiert werden:
+
+- "HEX"-Werte, Bsp. `#ff6347` für Tomatenrot.
+- "RGB"-Werte, Bsp. `rgb(60,179, 113)` für ein Hellgrün.
+- "HSL"-Werte, Bsp. `hsl(300, 76%, 72%)` für ein helles Violett.
+
+#### Maßeinheiten
+
+Jegliche Abstände und Größen werden durch verschiedene Maßeinheiten definiert:
+
+> **Absolute Größen:** Alle Größen, die ***nicht skalieren***, da sie immer gleich groß sind und dadurch auf verschieden großen Bildschirmen unterschiedlich sind.
+
+| Einheit | Beschreibung                  |
+| ------- | ----------------------------- |
+| cm      | Centimeter                    |
+| mm      | Millimeter                    |
+| in      | Inch                          |
+| px      | Pixel (Oft verwendet)         |
+| pt      | Punkte (Maßeinheit für Druck) |
+| pc      | Picas                         |
+
+> **Relative Größen:** Alle Größen, die ***skalieren***, d.h. abhängig von anderen Faktoren sind.
+
+| Einheit | Beschreibung                                              |
+| ------- | --------------------------------------------------------- |
+| em      | Relativ zu der Schriftgröße des Elementes                 |
+| ex      | Relativ zu der x-Höhe der Schriftgröße des Elementes      |
+| ch      | Relativ zur Breite von „0“                                |
+| rem     | Relativ zur Schriftgröße der Wurzel des Dokumentes (Root) |
+| vw      | Relativ zu 1% der Breite des Fensters                     |
+| vh      | Relativ zu 1% der Höhe des Fensters                       |
+| vmin    | Relativ zu 1% der kurzen Seite des Fensters               |
+| vmax    | Relativ zu 1% der langen Seite des Fensters               |
+| %       | Relativ zum übergeordneten Element                        |
+
+> *Auch möglich: **"auto"** statt einer Größe, z.B. bei margin-right und margin-left, um ein Objekt zu zentrieren.*
+
