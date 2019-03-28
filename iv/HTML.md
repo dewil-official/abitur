@@ -8,6 +8,7 @@
 2. **[HTML Syntax](#html_syntax)**
 3. **[HTML Attribute](#attribute)**
 4. **[HTML Dokumente](#dokumente)**
+5. **[HTML Elemente](#elemente)**
 
 ------
 
@@ -154,4 +155,67 @@ Der `<meta>`-Tag ist vielfältig, hier eine kleine Übersicht, was damit möglic
 - `<meta name="keywords" content="IV, Klausur, Lernzettel">` legt **Stichwörter** fest,  die z.B. in der Google Suche genutzt werden.
 - `<meta name="author" content="DeWil">` legt den **Autor** des Dokumentes fest.
 - `<meta name="viewport" content="width=device-width, initial-scale=1.0">` legt **Anzeigeinformationen** fest zu Skalierung etc. für Responsive Designs.
+
+#### Body
+
+Im **Body** landet dann normalerweise der Content, den man sehen kann. Hier ein Beispiel für eine fertige Website:
+
+```html
+<!doctype html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Lernzettel">
+	<meta name="keywords" content="IV, Klausur, Lernzettel">
+	<meta name="author" content="DeWil">
+	<meta name="viewport" content="width=device-width, initialscale=1.0">
+</head>
+<body>
+	<h1>Lernzettel für IV</h1>
+	<p>Dies ist die finale Website.</p>
+</body>
+```
+
+------
+
+## 🗄 HTML Elemente <a name="elemente"></a>
+
+#### `<a>`-Link
+
+Das a-Element macht seinen Inhalt anklickbar und leitet an einen Link weiter, der mithilfe von dem Attribut *href* angegeben wird. Beispiel:
+
+```html
+Hier ist ein <a href="https://www.google.de">Link</a>
+```
+
+#### `<p>`-Absatz
+
+Es bietet sich an, Fließtexte in Absätze (`<p>`) zu unterteilen, damit z.B. Abstände dazwischen entstehen. Beispiel:
+
+```html
+<p>Ein kurzer Textabsatz.</p>
+```
+
+Es gibt außerdem eine Reihe von Standartformatierungen, die auf Text angewendet werden können. Hier eine Liste davon:
+
+- `<b>` - **Fetter** Text
+- `<strong>` - **Wichtiger** Text
+- `<i>` - **Schräger** Text
+- `<em>` - **Hervorgehobener** Text
+- `<mark>` - **Markierter** Text
+- `<small>` - **Kleiner** Text
+- `<del>` - **Gelöschter** Text
+- `<ins>` - **Eingefügter** Text
+- `<sub>` - **Subskript** Text
+- `<sup>` - **Superskript** Text
+
+#### `<h1>, <h2>...` - Überschrift
+
+Um Textabschnitte zu gliedern, können Überschriften in den Größen 1 bis 6 verwendet werden:
+
+```html
+<h1>Große Überschrift</h1>
+<h4>Kleinere Überschrift</h4>
+```
+
+#### `<img>` - Bilder
 
