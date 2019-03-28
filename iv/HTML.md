@@ -11,6 +11,7 @@
 5. **[HTML Elemente](#elemente)**
 6. **[CSS Grundlagen](#css_grund)**
 7. **[CSS Eigenschaften](#css_eig)**
+8. **[CSS Flexbox](#flexbox)**
 
 ------
 
@@ -472,4 +473,16 @@ Jegliche Abstände und Größen werden durch verschiedene Maßeinheiten definier
 | display             | Anzeigbarkeit eines Elements: `inline | block | flex | none ...` |
 | position            | Position des Elements: `static | relative | fixed | absolute` |
 | float               | Lässt ein Objekt z.B. rechts innerhalb des übergeordneten Objekts anliegen `right | left | none | inherit` |
+
+------
+
+### ♐ Flexbox <a name="flexbox"></a>
+
+Flexbox ist eine Kurzform für *Flexible Box Module*, ein Layout-Modell zum einfachen Verteilen des Platzes zwischen HTML Elementen. Es ist eine Technologie, die heutzutage selbstverständlich in den meisten Seiten verwendet wird, um Websites auch für Mobilgeräte verfügbar zu machen.
+
+Flexbox bestimmt immer das Verhalten verschiedener Elemente innerhalb eines Containers.
+
+Um Flexbox zu aktivieren, gibt man dem Container-Element zunächst die Einstellung `display: flex;`. Dann gibt es eine Reihe von Einstellungen, die entweder bei dem Container oder bei den Flex-Items verwendet werden können:
+
+![](http://jonibologna.com/content/images/2014/Oct/flexboxsheet.png)
 
