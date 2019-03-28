@@ -7,6 +7,7 @@
 1. **[Historie](#historie)**
 2. **[HTML Syntax](#html_syntax)**
 3. **[HTML Attribute](#attribute)**
+4. **[HTML Dokumente](#dokumente)**
 
 ------
 
@@ -96,4 +97,61 @@ Die *Elemente* einer Seite können verschiedene **Eigenschaften** haben, diese n
 ```
 <img src="datei.png" alt="läd..">
 ```
+
+Dieses Beispiel ist ein *Self-Closing-Tag*, sonst stehen die Attribute immer im vorderen Tag. Hier sieht man als Beispiel das "source" (src) - Attribut, welches den Dateipfad für das Bild angibt, wie auch das "alternativ" (alt) - Attribut welches einen Text angibt, der angezeigt wird wenn das Bild nicht geladen ist.
+
+Es gibt **allgemeingültige Attribute**, die in allen Elementtypen verwendet werden:
+
+| Name    | Beschreibung                                                 |
+| ------- | ------------------------------------------------------------ |
+| `id`    | *Eindeutige Identifikation* eines Elements für die spätere Nutzung in CSS und Javascript. Eine ID kann nur einmal existieren. |
+| `class` | *Wiederverwendbare Identifikation* von Elementen vor allem für CSS, aber auch für Javascript. Klassen müssen einmal definiert werden und können unbegrenzt oft wiederverwendet werden. |
+| `style` | *Inline CSS Code*, also ein Stylesheet direkt innerhalb des Elementes. |
+
+------
+
+### 📰 HTML Dokumente <a name="dokumente"></a>
+
+#### Doctype
+
+Am Anfang eines Dokumentes sollte immer zuerst der **Dokumententyp** festgelegt werden, in unserem Fall *HTML*. Der Internet-Browser erhält nicht immer die gesamte .html Datei übertragen, sondern oft auch nur den Inhalt. Dadurch kann es sein, dass der Dateityp nicht klar ist, deshalb legt man ihn in .html Dokumenten immer zu Anfang fest.
+
+```html
+<!doctype HTML>
+```
+
+Diese Zeile sollte **immer am Anfang** eines *HTML-Dokumentes* stehen.
+
+#### Head
+
+Typischerweise *(trotzdem optional)* folgt nach dem Doctype der "Head", also der **Kopf** des Dokumentes. Der Kopf enthält normalerweise alle Informationen, die **unsichtbar** für den Nutzer sind, aber für den Browser wichtig. Diese Art von Informationen nennt man **Metadaten**.
+
+So könnte ein Head aussehen:
+
+```html
+<!doctype html>
+<head>
+	<title>Titel</title>
+	<link rel=“stylesheet“ href=“styles.css“>
+	<script src=“script.js“></script>
+	<meta name=“Meta Name“ content=“Meta Settings“>
+</head>
+```
+
+| Element  | Erklärung                                                    |
+| -------- | ------------------------------------------------------------ |
+| `title`  | Der **Titel**, wird im Browsertab angezeigt.                 |
+| `link`   | Ein **externes Stylesheet** für CSS Formatierung.<br />*Hier lässt sich nicht nur CSS Code einbinden, doch alles andere war nicht Teil unseres Unterrichts.* |
+| `script` | Ein **Javascript**, muss aber nicht im Head eingebunden sein. |
+| `meta`   | Weitere **Metadaten**, siehe unten.                          |
+
+#### Metadaten
+
+Der `<meta>`-Tag ist vielfältig, hier eine kleine Übersicht, was damit möglich ist:
+
+- `<meta charset="UTF-8">` legt den **Zeichensatz** fest, damit Umlaute etc. möglich sind.
+- `<meta name="description" content="Lernzettel">` legt eine **Seitenbeschreibung** fest, die z.B. in der Google-Suche angezeigt wird.
+- `<meta name="keywords" content="IV, Klausur, Lernzettel">` legt **Stichwörter** fest,  die z.B. in der Google Suche genutzt werden.
+- `<meta name="author" content="DeWil">` legt den **Autor** des Dokumentes fest.
+- `<meta name="viewport" content="width=device-width, initial-scale=1.0">` legt **Anzeigeinformationen** fest zu Skalierung etc. für Responsive Designs.
 
