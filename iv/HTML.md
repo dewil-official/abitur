@@ -349,3 +349,46 @@ Bevor man die Einstellungen eines Elements verändern kann, muss zunächst darau
 - Per **Elementtyp**: `body { ... }` - Trifft dadurch auf *alle Elemente* des Typs zu, in diesem Fall auf den Body.
 - Per **IDs**: `#nameId { ... }` - Trifft nur auf das *eine Element* zu, das die entsprechende Id trägt.
 - Per **Klasse**: `.nameKlasse { ... }` - Trifft auf *alle Elemente mit dem Klassenname* zu.
+
+Selektoren können außerdem **kombiniert** werden. So können Selektoren durch *Komma* getrennt werden, sodass mehrere Elemente gleichzeitig modifiziert werden können:
+
+```css
+p, #main-header {
+	/* CSS Code */
+}
+```
+
+Außerdem kann auf **verschachtelte Elemente** zugegriffen werden:
+
+```html
+<div id=“hauptartikel“>
+ <h1>Überschrift</h1>
+</div>
+```
+
+```css
+#hauptartikel h1 {
+	/* CSS Code */
+}
+```
+
+Nützlich, um nicht jedem Subelement einzeln eine Klasse geben zu müssen.
+
+#### Weitere Selektoren
+
+Es gibt viele viele weitere Selektoren, die verwendet werden können, beispielsweise kann man HTML Elemente durch ihre Attribute auswählen oder durch die Mausposition. Eine Liste aller weiteren Selektoren gibt es [hier](https://www.w3schools.com/cssref/css_selectors.asp).
+
+#### Kommentare
+
+In CSS lassen sich ebenfalls sehr einfach Kommentare schreiben, genauso empfehlenswert wie in HTML.
+
+```css
+body {
+ /* Kommentar */
+}
+```
+
+In CSS, Kommentare stehen zwischen **/*** und ***/**.
+
+------
+
