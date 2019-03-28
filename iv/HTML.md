@@ -10,6 +10,7 @@
 4. **[HTML Dokumente](#dokumente)**
 5. **[HTML Elemente](#elemente)**
 6. **[CSS Grundlagen](#css_grund)**
+7. **[CSS Eigenschaften](#css_eig)**
 
 ------
 
@@ -391,4 +392,6 @@ body {
 In CSS, Kommentare stehen zwischen **/*** und ***/**.
 
 ------
+
+### 🛒 CSS Eigenschaften <a name="css_eig"></a>
 
