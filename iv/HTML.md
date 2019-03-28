@@ -320,3 +320,32 @@ Denke daran, wenn Du z.B. Skripte einbindest. Tust Du dies am Anfang deines Doku
 
 ### 🦄 CSS Grundlagen <a name="css_grund"></a>
 
+CSS beschreibt das Aussehen der HTML Elemente.
+
+Um CSS Code einzubinden gibt es 3 Möglichkeiten:
+
+```html
+<link rel=“stylesheet“ href=“styles.css“>
+```
+
+```html
+<style> CSS CODE </style>
+```
+
+```html
+<div style=“CSS CODE“> HTML Element </div>
+```
+
+Das erste Beispiel ist mit Abstand das **eleganteste**: Man trennt HTML und CSS Code sauber, indem man eine **externe CSS Datei verlinkt**. Der große Vorteil außerdem: Man kann eine globale CSS Datei über **mehrere HTML Dateien** hinweg verwenden.
+
+Das zweite Beispiel eignet sich vor allem für Tests und extrem kleine Websites. Man definiert einfach ein Style Element **innerhalb** des HTML Dokuments und schreibt dort den CSS Code hinein. Problem ist die **fehlende Wiederverwendbarkeit** über mehrere Dokumente hinweg. Nutzbar trotzdem, falls eine spezielle Seite sich z.B. von der globalen Norm unterscheidet.
+
+Das dritte Beispiel sollte nie verwendet werden, da es **mitten im HTML Code** steht und diesen unnötig unübersichtlich macht. Im Zweifel sollte man, wenn man einzelne Elemente formatieren möchte, immer Klassen oder IDs verwenden. (Später mehr dazu).
+
+#### Selektoren
+
+Bevor man die Einstellungen eines Elements verändern kann, muss zunächst darauf zugegriffen werden. Dazu gibt es 3 Möglichkeiten.
+
+- Per **Elementtyp**: `body { ... }` - Trifft dadurch auf *alle Elemente* des Typs zu, in diesem Fall auf den Body.
+- Per **IDs**: `#nameId { ... }` - Trifft nur auf das *eine Element* zu, das die entsprechende Id trägt.
+- Per **Klasse**: `.nameKlasse { ... }` - Trifft auf *alle Elemente mit dem Klassenname* zu.
