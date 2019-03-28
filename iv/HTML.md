@@ -446,3 +446,30 @@ Jegliche Abstände und Größen werden durch verschiedene Maßeinheiten definier
 
 > *Auch möglich: **"auto"** statt einer Größe, z.B. bei margin-right und margin-left, um ein Objekt zu zentrieren.*
 
+#### Liste der wichtigsten Eigenschaften
+
+| Name                | Beschreibung                                                 |
+| ------------------- | ------------------------------------------------------------ |
+| background-color    | Hintergrundfarbe                                             |
+| background-image    | Hintergrundbild, wird als `url(„bild.png“)` angegeben.       |
+| background-repeat   | Wiederholung des Hintergrunds: `repeat | repeat-x | repeat-y | no-repeat` |
+| background-position | Position zum Fenster hin: `scroll | fixed | local | initial | inherit` |
+| border-style        | Position des Dokumentes: [Link](https://www.w3schools.com/cssref/pr_background-position.asp) |
+| border-width        | Rahmendicke                                                  |
+| border-color        | Farbe des Rahmens                                            |
+| margin              | Abstand nach außen                                           |
+| margin-top [...]    | Abstand nach außen in eine Richtung *(margin-top, -bottom, -right, -left)* |
+| padding             | Abstand nach innen                                           |
+| padding-top [...]   | Abstand nach innen in eine Richtung *(padding-top, -bottom, -right, -left)* |
+| height              | Höhe eines Elements                                          |
+| width               | Breite eines Elements                                        |
+| max-height          | Maximale Höhe eines Elements, begrenzt relative Höhe durch absolute Werte. Auch möglich: *min-height* |
+| max-width           | Maximale Breite eines Elements, begrenzt relative Breite durch absolute Werte. Auch möglich: *min-width* |
+| color               | Farbe z.B. von Text                                          |
+| text-align          | Linksbündig, Zentriert… `left | right | center | justify`    |
+| font-family         | Schriftart. Durch Kommata getrennt sollten immer mehrere Schriftarten definiert werden, falls der Browser die Schrift nicht kennt, probiert er die nächste. |
+| list-style-type     | Aufzählungszeichen in einer Liste: `circle | square | none ...` |
+| display             | Anzeigbarkeit eines Elements: `inline | block | flex | none ...` |
+| position            | Position des Elements: `static | relative | fixed | absolute` |
+| float               | Lässt ein Objekt z.B. rechts innerhalb des übergeordneten Objekts anliegen `right | left | none | inherit` |
+
