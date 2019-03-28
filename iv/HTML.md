@@ -12,6 +12,7 @@
 6. **[CSS Grundlagen](#css_grund)**
 7. **[CSS Eigenschaften](#css_eig)**
 8. **[CSS Flexbox](#flexbox)**
+9. **[Best Practices](#bp)**
 
 ------
 
@@ -485,4 +486,17 @@ Flexbox bestimmt immer das Verhalten verschiedener Elemente innerhalb eines Cont
 Um Flexbox zu aktivieren, gibt man dem Container-Element zunächst die Einstellung `display: flex;`. Dann gibt es eine Reihe von Einstellungen, die entweder bei dem Container oder bei den Flex-Items verwendet werden können:
 
 ![](http://jonibologna.com/content/images/2014/Oct/flexboxsheet.png)
+
+------
+
+### ⭐ Best Practices <a name="bp"></a>
+
+Die Krone auf all dem Wissen bisher, ist wie man es optimal einsetzt. Wenn der Code nicht nur funktioniert, sondern schön aussieht, übersichtlich ist und durch Kommentare auf Anhieb zu verstehen ist. Drei Mottos, die man im Hinterkopf behalten sollte stehen hier:
+
+- **Desto weniger, desto besser**. Man sollte immer versuchen, so wenig Code und so wenig Dateien wie möglich zu generieren, denn weniger ist immer **übersichtlicher.** Und wenn etwas übersichtlicher ist, dann besteht weniger Buggefahr, es ist angenehmer zu lesen und man kann es einfacher bearbeiten.
+- **Vererbung erspart Arbeit**. Es ist immer sinnvoll, wirklich jede Funktion, jedes Format, welche(s) an mehreren Stellen verwendet werden(/wird), extern an einer Stelle zu definieren und dann einfach mehrmals zu verwenden. So erreicht man ein stimmiges globales Design und man spart einiges an Code.
+- **Eigene Strukturregeln**. Beispielsweise in HTML bietet es sich an, an bestimmten Stellen etwas Freiraum bzw. einen zusätzlichen Absatz zu setzen, damit zusammengehörende Objekte auch im Code so aussehen. Außerdem gilt wieder: Möglichst übersichtlich.
+- **Benenne so, dass Kommentare unnötig werden.** Denn die besten Kommentare sind die, die man nicht schreiben muss. Kommentare kosten Zeit - zu schreiben und zu lesen - und sie können falsch sein, zum Beispiel wenn der dazugehörige Code sich ändert. Deshalb: Schreibe deinen Code so, dass er sich selbst erklärt. Nenne deine Klassen und Ids genau nach dem, was sie tun.
+
+Ein [interessanter Link](https://google.github.io/styleguide/htmlcssguide.html#Optional_Tags) zu diesem Thema kommt von Google.
 
