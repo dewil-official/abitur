@@ -68,3 +68,51 @@ In einem ERD (Entity-Relationship-Diagramm) wird nach den Vorgaben des ERM (Enti
 
 ![](http://www.datenbanken-verstehen.de/wordpress/dbv/uploads/elemente_entity-relationship-modell.jpg)
 
+Grundsätzlich werden reale Objekte in einem ER-Diagramm als **Entität** bezeichnet. Eine Tabelle enthält eine Menge derselben Entitäten.
+
+Die **Beziehung** zwischen Entitäten legt eine Zuordnung fest, die später abgespeichert werden kann.
+
+**Attribute** sind einzelne Datenfelder dieser Entitäten.
+
+![](http://www.datenbanken-verstehen.de/dbv/uploads/beispiel_entity-relationship-modell-465x124.jpg)
+
+Beispielhaft könnte das dann so aussehen: Es gibt eine Tabelle für alle Mitarbeiter, jeder Mitarbeiter hat einen Namen.
+
+Außerdem gibt es eine Tabelle für alle Projekte, jedes Projekt hat einen Namen, ein Datum und ein Budget.
+
+Die Beziehung legt fest, dass jedes Projekt einen Mitarbeiter hat, der es leitet. Das heißt in den Projekten ist das jeweils abgespeichert.
+
+#### Namenskonventionen
+
+Die **Benennung** der Elemente eines ERDs kann je nach Projekt unterschiedlich erfolgen. Im Unterricht jedoch erfordert Herr Lam die folgenden Benennungen:
+
+- Entitäten werden groß geschrieben: *Autos*
+- Attribute enthalten noch den Anfangsb. der Entität und sind klein: *a_farbe*
+- Beziehungen sind klein geschrieben: *leitet*
+- Primärschlüssel werden als Attribut geschrieben und fett unterstrichen: *a_nr*
+- Fremdschlüssel werden als Attribut einer anderen Entität geschrieben und gestrichelt unterstrichen: *h_nr*
+
+Diese Benennungen sind stark an das angelehnt, was später in SQL programmiert wird.
+
+#### Primär- und Fremdschlüssel
+
+**Schlüssel** werden in Datenbanken für die **eindeutige** Identifikation der Entitäten benötigt.
+
+Ein **Primärschlüssel** wird als erstes Attribut einer Entität festgelegt. Ein **Fremdschlüssel** enthält den Primärschlüssel einer fremden Entität, dies ist wichtig für Beziehungen zwischen den Entitäten. Ein Fremdschlüssel ist immer das letzte Attribut.
+
+#### Beziehungen
+
+Es ist einfach zu sagen, *dass* eine Beziehung besteht. Schwerer ist es dann, genau zu definieren, *welche* Beziehung besteht. Eine Beziehung legt fest, dass eine Entität irgendwie einer anderen Entität zugeordnet werden soll.
+
+**Wie viele** Entitäten einer anderen zugeordnet werden, nennt man **Kardinalität**. Dadurch gibt es folgende Möglichkeiten:
+
+| Art               | Erklärung                                                    |
+| ----------------- | ------------------------------------------------------------ |
+| **1:1** Beziehung | "Ein Mann heiratet eine Frau und umgekehrt."<br />Dabei wird ein Fremdschlüssel in der jeweils anderen Tabelle gespeichert.<br />Nur hilfreich, um Teile einer Tabelle in eine andere auszulagern. |
+| **1:n** Beziehung | "Ein Hersteller produziert mehrere Autos, jedes Auto hat aber genau einen Hersteller."<br />Dabei erhält jede Entität der n-Seite den Fremdschlüssel der anderen Seite. |
+| **m:n** Beziehung | "Viele Hersteller produzieren zusammen eine Reihe von Uhren."<br />Dabei wird eine Hilfstabelle verwendet, um alle Relationen festzuhalten. Auf beiden Seiten wird jeweils nur die Hilfstabelle als Fremdschlüssel angegeben. |
+
+Im Diagramm werden diese Beziehungen wie folgt dargestellt:
+
+![](https://i.postimg.cc/WbJc58fr/Anmerkung-2019-03-29-135454.jpg)
+
