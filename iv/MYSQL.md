@@ -125,3 +125,5 @@ Dann erscheinen auf der linken Seite ein Entitäts-Objekt, ein Beziehungs-Objekt
 
 ### 📅 Transformation <a name="transformation"></a>
 
+Um ER-Diagramme in Datenbanken umzuwandeln (oder umgekehrt), sollte man sie zuerst in Tabellenform umwandeln. Dort lassen sie sich ordnen und "normalisieren".
+
