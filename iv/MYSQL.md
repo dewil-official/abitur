@@ -6,6 +6,7 @@
 
 1. **[Einführung](#einführung)**
 2. **[ERDs](#erds)**
+3. **[Transformation](#transformation)**
 
 ------
 
@@ -115,4 +116,12 @@ Es ist einfach zu sagen, *dass* eine Beziehung besteht. Schwerer ist es dann, ge
 Im Diagramm werden diese Beziehungen wie folgt dargestellt:
 
 ![](https://i.postimg.cc/WbJc58fr/Anmerkung-2019-03-29-135454.jpg)
+
+#### Umsetzung in Dia
+
+Das Programm DiaPortable kann [hier](https://portableapps.com/de/apps/office/dia_portable) runtergeladen werden. Auf der linken Seite kann im Dropdown-Menü "Andere Objektbögen > ER" ausgewählt werden.
+
+Dann erscheinen auf der linken Seite ein Entitäts-Objekt, ein Beziehungs-Objekt und ein Attributs-Objekt.
+
+### 📅 Transformation <a name="transformation"></a>
 
