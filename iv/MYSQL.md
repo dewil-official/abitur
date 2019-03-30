@@ -7,6 +7,7 @@
 1. **[Einführung](#einführung)**
 2. **[ERDs](#erds)**
 3. **[Transformation](#transformation)**
+4. **[Normalisierung](#normalisierung)**
 
 ------
 
@@ -125,5 +126,31 @@ Dann erscheinen auf der linken Seite ein Entitäts-Objekt, ein Beziehungs-Objekt
 
 ### 📅 Transformation <a name="transformation"></a>
 
-Um ER-Diagramme in Datenbanken umzuwandeln (oder umgekehrt), sollte man sie zuerst in Tabellenform umwandeln. Dort lassen sie sich ordnen und "normalisieren".
+**Transformation** ist die Umwandlung vom ER-Modell in eine Tabellenform. Das ist deswegen sinnvoll, da die Tabellen genau die spätere Datenbank widerspiegeln, sie sich in Tabellenform aber noch besser *ordnen* und *verbessern* lassen.
+
+#### Transformationsregeln
+
+- Jede Entität erhält eine eigene Tabelle
+- m:n Beziehungen erhalten eigene Tabellen
+  - Dort stehen Fremdschlüssel der beiden Entitäten
+- 1:n und 1:1 Beziehungen **mit** eigenen Attributen erhalten eine eigene Tabelle
+- Bei 1:n Beziehung **ohne** Attribute erhält die n-Seite einen Fremdschlüssel
+- Bei 1:1 Beziehung **ohne** Attribute erhält eine Seite den Primärschlüssel der anderen Seite als eigenen Primär- und Fremdschlüssel gleichzeitig
+- Lassen sich die letzten beiden Regeln nicht anwenden, z.B. wegen ungleichen Entitätsmengen, wird auch eine eigene Tabelle erstellt
+- Alle Regeln sind gut [hier](http://www.oberstufeninformatik.de/Datenbanken/ERMTheorie.pdf) erklärt.
+
+#### Tupelschreibweise
+
+Die **Tupelschreibweise** versucht die Tabellen als Pseudo-Programmiercode zu schreiben.
+
+- Tabellenname(Primärschlüssel, Attribut 1, Attribut 2, Fremdschlüssel, Fremdschlüssel);
+- *Beispiel*: Lehrer(<u>l_nr</u>, l_name, l_telefonnummer, <u>f_nr</u>);
+  - Semikolon nicht vergessen!
+  - Fremdschlüssel gestrichelt unterstreichen (Dieses Textformat unterstützt das nicht...)!
+
+### 💸 Normalisierung <a name="normalisierung"></a>
+
+Bevor die Datenbanken in SQL umgesetzt werden, sollten sie **normalisiert** werden. Dazu gibt es drei Schritte bzw. drei Normalformen, die am Ende dann verhindern, dass Dopplungen und Redundanzen in der Datenbank auftreten.
+
+#### Erste Normalform
 
