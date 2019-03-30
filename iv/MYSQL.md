@@ -8,6 +8,7 @@
 2. **[ERDs](#erds)**
 3. **[Transformation](#transformation)**
 4. **[Normalisierung](#normalisierung)**
+5. **[MYSQL](#sql)**
 
 ------
 
@@ -215,7 +216,7 @@ Dazu die folgenden Schritte befolgen:
   - Zuerst von Zweit-Schlüsseln
   - Dann von Nicht-Schlüsseln
 
-### 💽 MySQL Umsetzung
+### 💽 MySQL Umsetzung <a name="sql"></a>
 
 In diesem Abschnitt werden die Befehle erklärt, die innerhalb der *Datenbank-Queries* verwendet werden können, um eine Datenbank in der Praxis zu erstellen.
 
@@ -237,4 +238,48 @@ In diesem Abschnitt wird sich **nur** auf die **Befehle** konzentriert und was s
 > **Denk dran:** Datenbanken sind *persistent!* Das heißt, wenn Du einmal eine Datenbank erstellst, dein Programm schließt und es irgendwann wieder startest, ist die Datenbank noch da! In den Unterrichtsbeispielen wurde daher zunächst immer einmal die Datenbank gelöscht und dann wieder neu erstellt.
 
 #### Tabellen Handling
+
+- `CREATE TABLE <name> [spalten] ENGINE=INNODB;` **Erstellung** einer Tabelle
+- `DROP TABLE <name>;` **Löschen** einer Tabelle
+
+Da man vorher meistens schon die zu erstellenden Attribute / Spalten kennt, sollte man diese direkt mit-erstellen.
+
+Dazu gibt es folgende Datentypen:
+
+| Typ       | Erklärung                                                    |
+| --------- | ------------------------------------------------------------ |
+| `varchar` | Zeichenketten (Buchstaben, Zeichen und Zahlen)               |
+| `int`     | Ganze Zahlen                                                 |
+| `dec`     | Kommazahlen ( Bei der Definition: dec(Gesamtlänge, Nachkommastellen) z.B. dec(5,2) für 250,99 ) |
+| `date`    | Daten                                                        |
+| `year`    | Jahr                                                         |
+| `time`    | Zeitangaben                                                  |
+
+Außerdem weitere Argumente bei der Erstellung:
+
+| Argument       | Erklärung                                                    |
+| -------------- | ------------------------------------------------------------ |
+| NOT NULL       | Spalte darf nicht leer sein. (z.B. bei Primärschlüsseln)     |
+| AUTO_INCREMENT | Bei der Erstellung wird automatisch die nächst höhere Nummer generiert. (z.B. bei Primärschlüsseln) |
+
+**Beispielsweise** könnte eine Tabellenerstellung so aussehen:
+
+```mysql
+CREATE TABLE Schueler (
+	s_nr INT(6) NOT NULL AUTO_INCREMENT,
+    s_nachname VARCHAR(40),
+    s_vorname VARCHAR(40),
+    s_str VARCHAR(60),
+    s_plz INT(5),
+    s_ort VARCHAR(40),
+    s_tel VARCHAR(15),
+    PRIMARY KEY(s_nr)
+) ENGINE = INNODB;
+```
+
+Bedenke bei der Erstellung folgende Dinge:
+
+- Es muss einen **Primärschlüssel** geben, der dann durch `PRIMARY KEY()` festgelegt wird.
+- Das letzte Attribut (Hier: PRIMARY KEY) hat *kein Komma* mehr dahinter.
+- `ENGINE = INNODB;` Notwendig, weil Baum.
 
