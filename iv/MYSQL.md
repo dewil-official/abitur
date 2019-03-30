@@ -125,6 +125,8 @@ Das Programm DiaPortable kann [hier](https://portableapps.com/de/apps/office/dia
 
 Dann erscheinen auf der linken Seite ein Entitäts-Objekt, ein Beziehungs-Objekt und ein Attributs-Objekt.
 
+------
+
 ### 📅 Transformation <a name="transformation"></a>
 
 **Transformation** ist die Umwandlung vom ER-Modell in eine Tabellenform. Das ist deswegen sinnvoll, da die Tabellen genau die spätere Datenbank widerspiegeln, sie sich in Tabellenform aber noch besser *ordnen* und *verbessern* lassen.
@@ -148,6 +150,8 @@ Die **Tupelschreibweise** versucht die Tabellen als Pseudo-Programmiercode zu sc
 - *Beispiel*: Lehrer(<u>l_nr</u>, l_name, l_telefonnummer, <u>f_nr</u>);
   - Semikolon nicht vergessen!
   - Fremdschlüssel gestrichelt unterstreichen (Dieses Textformat unterstützt das nicht...)!
+
+------
 
 ### 💸 Normalisierung <a name="normalisierung"></a>
 
@@ -216,6 +220,8 @@ Dazu die folgenden Schritte befolgen:
   - Zuerst von Zweit-Schlüsseln
   - Dann von Nicht-Schlüsseln
 
+------
+
 ### 💽 MySQL Umsetzung <a name="sql"></a>
 
 In diesem Abschnitt werden die Befehle erklärt, die innerhalb der *Datenbank-Queries* verwendet werden können, um eine Datenbank in der Praxis zu erstellen.
@@ -280,6 +286,62 @@ CREATE TABLE Schueler (
 Bedenke bei der Erstellung folgende Dinge:
 
 - Es muss einen **Primärschlüssel** geben, der dann durch `PRIMARY KEY()` festgelegt wird.
+- In Klammern der *Datentypen* steht die Länge der Daten. (max. Stellenanzahl)
 - Das letzte Attribut (Hier: PRIMARY KEY) hat *kein Komma* mehr dahinter.
 - `ENGINE = INNODB;` Notwendig, weil Baum.
+
+#### Spalten Handling
+
+Abseits der Spaltenerstellung im letzten Kurzabschnitt, lassen sich auch einzelne Spalten manipulieren:
+
+- `ALTER TABLE <tabelle> ADD <name> <datentyp(länge)>;` **Erstellen** einer Spalte
+- `ALTER TABLE <tabelle> DROP <spalte>;` **Löschen** einer Spalte
+- `ALTER TABLE <tabelle> CHANGE <sname_alt> <sname_neu> <datentyp>;` **Umbenennen** / **Typänderung** einer Spalte
+
+#### Daten Handling
+
+Die eigentlichen Daten können wie folgt manipuliert / abgerufen werden:
+
+- `INSERT INTO <tabelle> (<spalte1>[,spalte2 ...]) VALUES(<wert1>[,wert2 ...]);` **Füge** einen Datensatz **ein**. (Varchar muss in "" stehen), es geht auch *NULL* als Wert. Dezimalzahlen werden mit einem . getrennt
+- `DELETE FROM <tabelle> WHERE <Bedingung>;` **Lösche** bestimmte Daten
+- `UPDATE <tabelle> SET <spalte>=<wert>[, ..] WHERE <Bedingung>;` **Update** bestimmter Daten
+
+##### Bedingungen
+
+*Bedingungen* sind sehr wichtig, da sich mit ihnen gezielt Daten finden und manipulieren lassen.
+
+- `WHERE <Bedingung> AND <Bedingung>` Mit **AND** lassen sich beliebig viele Bedingungen verknüpfen.
+- `WHERE <Bedingung> OR <Bedingung>` Mit **OR** lassen sich beliebig viele Bedingungen verknüpfen.
+- `WHERE <name>=<daten>` Einfache **Gleich**heitsüberprüfung
+- `WHERE <name><=<daten>` Überprüfung mit *>=,<=,>,<*
+- `WHERE <name> LIKE 1_` Alle Daten, die dem Muster 1_ entsprechen, während _ durch jede beliebige Zahl ersetzbar ist.
+- `WHERE <name> LIKE '%a'` Alle Daten, die auf a enden. % steht für eine beliebige Anzahl von Zeichen davor.
+
+#### Abfrage / Funktionen
+
+- `SELECT <* oder Spalte(n) oder Funktion> FROM <tabelle>;` Normale **Abfrage**.
+- `SELECT DISTINCT <spalte> FROM <tabelle>;` **Abfrage** unter Vermeidung von Dopplungen.
+- `SELECT <Funktion> FROM <tabelle>;` **Abfrage** mit einer Funktion
+  - `avg(spalte)` Berechne den **Durchschnitt**
+  - `sum(spalte)` Berechne die **Summe**
+  - `max(spalte)` Berechne das **Maximum**
+  - `min(spalte)` Berechne das **Minimum**
+  - `count(spalte)` Berechne die **Anzahl** der Datenfelder
+
+- `SELECT <auswahl> FROM <tabelle> ORDER BY <spalte>;` **Ordne** die Ausgabe
+- `SELECT <auswahl> FROM <tabelle> ORDER BY <spalte> DESC;`**Ordne** die Ausgabe **absteigend**.
+
+#### Abfragen über mehrere Tabellen
+
+Es gibt prinzipiell zwei Möglichkeiten, Abfragen über mehrere Tabellen hinweg zu erstellen.
+
+##### WHERE-Verknüpfung
+
+Wenn die WHERE-Abfrage über mehrere Tabellen hinweg gestartet wird, dann meistens mit einer Verknüpfung zwischen den Tabellen. Das kann dann so aussehen:
+
+- `SELECT spalte1, spalte2 from tabelle1, tabelle2 WHERE tabelle1.pk=tabelle2.fk;`
+
+Zum einen werden sowohl die beiden Spalten, als auch die beiden Tabellen einfach *mit Komma getrennt*. Zum anderen gibt es die *WHERE* Bedingung, die eine Verbindung zwischen den Tabellen herstellt.
+
+##### JOINs
 
