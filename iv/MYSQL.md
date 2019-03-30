@@ -345,3 +345,13 @@ Zum einen werden sowohl die beiden Spalten, als auch die beiden Tabellen einfach
 
 ##### JOINs
 
+![](http://www.datenbanken-verstehen.de/dbv/uploads/sql_joins.png)
+
+
+
+> **Diese Links werden noch in diesen Lernzettel umgesetzt:**
+>
+> - [GROUP BY](http://www.datenbanken-verstehen.de/sql-tutorial/sql-group_by-befehl/)
+> - [HAVING](http://www.datenbanken-verstehen.de/sql-tutorial/sql-having-befehl/)
+> - [JOINS](http://www.datenbanken-verstehen.de/sql-tutorial/sql-joins/)
+
