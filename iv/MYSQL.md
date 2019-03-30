@@ -154,3 +154,64 @@ Bevor die Datenbanken in SQL umgesetzt werden, sollten sie **normalisiert** werd
 
 #### Erste Normalform
 
+> Jedes Attribut muss einen **eigenen** Wertebereich haben!
+
+Beispiel:
+
+![NF1-Verletzt](https://i.ibb.co/7t7LR4d/image.png)
+
+Die Rot-markierten Zellen verletzen diese Regel. Man muss also den Künstler und das Album noch aufteilen, wie auch die einzelnen Titel.
+
+Lösung:
+
+![NF1-Lösung](https://i.postimg.cc/66Cgfd3D/Anmerkung-2019-03-30-110054.jpg)
+
+Diese Lösung ist natürlich noch nicht optimal. Deswegen weiter zur nächsten Form:
+
+#### Zweite Normalform
+
+> *Zusätzlich zur ersten Normalform* müssen **nicht-primäre** Attribute ausgelagert werden.
+
+Die Attribute sollen also jeweils nur von ihrer Entität abhängig sein. Innere Abhängigkeiten sollen also entfernt werden.
+
+Beispiel:
+
+![NF2-Verletzt](https://i.postimg.cc/hPsSpFvW/Anmerkung-2019-03-30-110742.jpg)
+
+Die Rot-markierten Zeilen doppeln sich! Ganz einfach deshalb, weil die linken drei weißen Spalten unabhängig vom cd_track sind.
+
+Lösung:
+
+![NF2-Lösung](https://i.postimg.cc/pdxJxFxn/Anmerkung-2019-03-30-111039.jpg)
+
+Hier wurden die cd_titel ausgelagert, die sowohl abhängig sind vom cd_track, wie auch vom cd_id. Es ergibt sich also ein zusammengesetzter Primärschlüssel.
+
+#### Dritte Normalform
+
+> *Zusätzlich zur zweiten Normalform* müssen **transitive** Abhängigkeiten entfernt werden, das heißt es dürfen keine Attribute von anderen Nicht-Schlüssel-Attributen abhängig sein.
+
+Jetzt, wo in der zweiten Normalform die Abhängigkeiten von Schlüsselattributen entfernt wurden, sollen auch die Abhängigkeiten von Nicht-Schlüsseln entfernt werden. Dazu wird im Zweifel eine neue Tabelle erstellt.
+
+Beispiel:
+
+![NF3-Verletzt](https://i.postimg.cc/kGcL7mRx/Anmerkung-2019-03-30-112416.jpg)
+
+Das Gründungsjahr des Interpreten hängt nur vom Interpreten ab. Daher entstehen Dopplungen. Also: Interpret auslagern!
+
+Lösung:
+
+![NF3-Lösung](https://i.postimg.cc/x1rL9zY3/Anmerkung-2019-03-30-112604.jpg)
+
+*Künstler* haben also ihre eigene Tabelle erhalten und in der CDs-Tabelle werden die nur noch per Fremdschlüssel referenziert.
+
+#### Zusammenfassung
+
+Das **Ziel** ist es IMMER, **keine Dopplungen** mehr zu haben. Wenn jetzt also ein Künstler seinen Namen ändern möchte, dann muss sich der Datenbankverwalter keine Sorgen mehr machen, außer k_interpret einmal zu ändern.
+
+Dazu die folgenden Schritte befolgen:
+
+- Attribute aufteilen
+- Innere Abhängigkeiten auslagern
+  - Zuerst von Zweit-Schlüsseln
+  - Dann von Nicht-Schlüsseln
+
