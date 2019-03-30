@@ -215,3 +215,26 @@ Dazu die folgenden Schritte befolgen:
   - Zuerst von Zweit-Schlüsseln
   - Dann von Nicht-Schlüsseln
 
+### 💽 MySQL Umsetzung
+
+In diesem Abschnitt werden die Befehle erklärt, die innerhalb der *Datenbank-Queries* verwendet werden können, um eine Datenbank in der Praxis zu erstellen.
+
+In diesem Abschnitt wird sich **nur** auf die **Befehle** konzentriert und was sie bewirken, weil die ganze Theorie zu diesem Zeitpunkt klar sein sollte. Wie man die Programme einrichtet sieht man [hier](https://github.com/dewil-official/abitur/blob/master/iv/lehrerdocs/datenbanken_aktualisiert.pdf).
+
+> **Syntax** für die folgenden Befehlserklärungen:
+>
+> z.B. "CREATE DATABASE <name>" => <name> muss ersetzt werden.
+>
+> z.B. "CREATE TABLE <name> ([entities])" => [entities] ist optional und KANN ersetzt werden.
+
+#### Datenbank Handling
+
+- `CREATE DATABASE <name>;` **Erstellung** einer Datenbank
+- `DROP DATABASE <name>;` **Löschen** einer Datenbank
+- `USE <name>;` **Auswahl** einer Datenbank (***Muss*** am Anfang einer Query gemacht werden)
+  - Bleibt ausgewählt bis Query-Ende oder Neuauswahl!
+
+> **Denk dran:** Datenbanken sind *persistent!* Das heißt, wenn Du einmal eine Datenbank erstellst, dein Programm schließt und es irgendwann wieder startest, ist die Datenbank noch da! In den Unterrichtsbeispielen wurde daher zunächst immer einmal die Datenbank gelöscht und dann wieder neu erstellt.
+
+#### Tabellen Handling
+
