@@ -6,6 +6,8 @@
 
 1. **[Grundlagen](#grundlagen)**
 2. **[Seitenformat und Aufteilung](#seite)**
+3. **[Formen](#formen)**
+4. **[Farben](#farben)**
 
 ------
 
@@ -43,6 +45,7 @@
 
 - **Blickfänge** sollten **nicht konkurrieren**, sondern sich ergänzen. Sie sollten nicht quer übers Blatt verteilt werden, sondern bewusst beieinander Kontraste erzeugen.
 - **Wiederholung** von eigenen Stilmitteln und Designentscheidungen!
+- Achso und: **BLOCKSATZ SCHREIBEN!** (Warum auch immer...)
 
 ------
 
@@ -91,3 +94,42 @@ Die **tatsächliche Höhe** des Satzspiegels kann erst bestimmt werden, wenn Sch
 #### Gestaltungsraster
 
 Das *Gestaltungsraster* unterstützt bei der Platzierung von Objekten und Texten, nachdem der Satzspiegel feststeht.
+
+##### Erstellung
+
+![](https://i.postimg.cc/W3TtP1LZ/image.png)
+
+- Die **Breite** ergibt sich oft durch vorhandene Spalten
+- Die **Höhe** ist ein vielfaches der Zeilenhöhe plus Versalhöhe, das Vielfache sollte zwischen 4 und 8 liegen, während die Höhe eines Rasterfelds als ein Vielfaches in den Satzspiegel passen sollte. Die Zelle sollte außerdem nicht größer sein als das kleinste Bild.
+
+##### Sinn und Zweck
+
+Das *Gestaltungsraster* hilft dabei, Objekte auf einer Linie mit Spalten und Texten zu platzieren, damit das geistige Auge eine gewisse Regelmäßigkeit auf der Seite feststellen kann.
+
+Außerdem kann besonders bei dünnem Papier der Text durchscheinen, deshalb sollte das Raster spiegelverkehrt auf Vorder- und Rückseite übereinstimmen.
+
+##### Sechs Schritte zum Gestaltungsraster
+
+1. Satzspiegel
+2. Spaltenanzahl
+3. Grundlinienraster (Oberkante des Textes muss an Oberseite vom Satzspiegel enden)
+4. Exakte Satzspiegelhöhe
+5. Zellengröße
+6. Seite füllen (Dinge einfügen)
+
+------
+
+### 🔹 Formen <a name="formen"></a>
+
+![](https://i.postimg.cc/rpTXghrV/image.png)
+
+![](https://i.postimg.cc/43ptR3yv/Anmerkung-2019-03-31-150128.jpg)
+
+![](https://i.postimg.cc/kGHDbrDX/image.png)
+
+Generell gilt hier: Auf das Bauchgefühl hören und kreativ sein.
+
+------
+
+### 💢 Farben <a name="farben"></a>
+
