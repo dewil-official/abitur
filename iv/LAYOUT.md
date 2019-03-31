@@ -8,6 +8,7 @@
 2. **[Seitenformat und Aufteilung](#seite)**
 3. **[Formen](#formen)**
 4. **[Farben](#farben)**
+5. **[Bilder](#bilder)**
 
 ------
 
@@ -132,4 +133,58 @@ Generell gilt hier: Auf das Bauchgefühl hören und kreativ sein.
 ------
 
 ### 💢 Farben <a name="farben"></a>
+
+Die Wirkung von Farben entsteht oft durch Kultur, Werte und Assoziationen.
+
+- Gelb: Licht, Leuchten, Heiterkeit, Klarheit
+- Grün: Gift, Unreife, Hoffnung, Fruchtbarkeit
+- Rot: Ehrgeiz, Stärke, Wärme, Leidenschaft, Liebe, Blut
+- Blau: Kälte, Ruhe, Unendlichkeit, Ungewisse
+- Orange: Erfolg, Gewinn, Toleranz, Ausgeglichenheit
+- Violett: Geist, Kunst, Inspiration, Extravaganz, Magie
+- Braun: Dreck, Unsauberkeit, Spießbürger
+- Schwarz: Dunkelheit, Schmerz, Tod, Bringt Farben zum Leuchten
+- Weiß: Sauberkeit, Einfachkeit
+
+
+
+- **Qualität**skontrast: Leuchte Farben zu Getrübten Farben
+- **Quantität**skontrast: Groß und Klein / Viel und Wenig
+- Farben, die **zusammengemischt ein Grau** ergeben, sind Harmonisch.
+
+
+
+- CMYK: Mischen der Farben wird Schwarz, wie beim Drucken
+- RGB: Mischen der Farben ergibt Weiß, wie beim Bildschirm
+
+------
+
+### 🎪 Bilder <a name="bilder"></a>
+
+1. Auf das Motiv konzentrieren
+2. Ein geeignetes Format finden
+3. Die passende Bildaufteilung wählen
+4. Den richtigen Ausschnitt suchen
+5. Die richtige Wahl bei Licht, Schatten und Farbe
+6. Die Tiefenwirkung gekonnt einsetzen
+
+- Querformat wirkt vertraut, Hochformat ungewöhnlich
+- 300ppi sollten mindestens da sein
+
+
+
+- Formate
+  - TIFF: Format für den Druck mit vielen Pixel-Farben
+  - EPS: Teil eines PostScripts, Vektordaten
+  - PDF als Allrounder: Druck und Web
+  - RAW und DNG: Rohdaten einer Kamera
+  - PNG: Transparent, Gute Qualität, Verlustfreie Kompression
+  - JPG: Komprimiert für viele Pixel aber Bildartefakte
+  - SVG und SWF: Vektordaten fürs Internet
+
+------
+
+Achso und:
+
+**BLOCKSATZ!**
 
