@@ -327,9 +327,10 @@ Die eigentlichen Daten können wie folgt manipuliert / abgerufen werden:
   - `max(spalte)` Berechne das **Maximum**
   - `min(spalte)` Berechne das **Minimum**
   - `count(spalte)` Berechne die **Anzahl** der Datenfelder
-
 - `SELECT <auswahl> FROM <tabelle> ORDER BY <spalte>;` **Ordne** die Ausgabe
 - `SELECT <auswahl> FROM <tabelle> ORDER BY <spalte> DESC;`**Ordne** die Ausgabe **absteigend**.
+- `SELECT <spalte> FROM <tabelle> [WHERE Bedingung] GROUP BY <spalte>;` **Gruppiere** die Ausgabe, also zähle wie oft die einzelnen Ergebnisse vorhanden sind.
+- `SELECT <spalte> FROM <tabelle> [WHERE Bedingung] GROUP BY <spalte> HAVING <Bedingung>;` Ermöglicht, die **Gruppierung** erneut **einzuschränken**. (Funktionier wie WHERE)
 
 #### Abfragen über mehrere Tabellen
 
@@ -351,7 +352,5 @@ Zum einen werden sowohl die beiden Spalten, als auch die beiden Tabellen einfach
 
 > **Diese Links werden noch in diesen Lernzettel umgesetzt:**
 >
-> - [GROUP BY](http://www.datenbanken-verstehen.de/sql-tutorial/sql-group_by-befehl/)
-> - [HAVING](http://www.datenbanken-verstehen.de/sql-tutorial/sql-having-befehl/)
 > - [JOINS](http://www.datenbanken-verstehen.de/sql-tutorial/sql-joins/)
 
