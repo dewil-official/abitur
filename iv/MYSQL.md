@@ -348,9 +348,17 @@ Zum einen werden sowohl die beiden Spalten, als auch die beiden Tabellen einfach
 
 ![](http://www.datenbanken-verstehen.de/dbv/uploads/sql_joins.png)
 
+Durch das ER-Modell und die Transformation wurde stark darauf geachtet, einige Informationen in andere Tabellen auszulagern, um Dopplungen zu verhindern. Wenn bei einer späteren Abfrage aber die Beziehungen bzw. mehrere Tabellen relevant werden, dann können diese mithilfe sogenannter *JOINS* wieder hergestellt werden. Obwohl ich auf Entwicklerseiten keine klare Antwort gefunden habe, sagt Herr Lam dass JOINs technisch besser wären als die WHERE-Verknüpfung.
 
+In der Klausur verwendet wird ausschließlich der INNER JOIN, der wie gesagt identisch zur WHERE-Verknüpfung funktioniert. Der Befehl:
 
-> **Diese Links werden noch in diesen Lernzettel umgesetzt:**
->
-> - [JOINS](http://www.datenbanken-verstehen.de/sql-tutorial/sql-joins/)
+`SELECT <spalte1>, <spalte2> FROM <tabelle1> INNER JOIN <tabelle2> ON <tabelle1.pk>=<tabelle2.fk>;`
+
+Damit lassen sich auch mehr als 2 Tabellen Verknüpfen:
+
+`SELECT <spalte1>, <spalte2> FROM <tabelle1> INNER JOIN <tabelle2> ON <tabelle1.pk>=<tabelle2.fk> INNER JOIN <tabelle3> ON <tabelleX.pk>=<tabelle3.fk>;`
+
+Oder mit WHERE-Bedingung ZUSÄTZLICH (Was mit der WHERE-Methode oben nicht geht):
+
+`SELECT <spalte1>, <spalte2> FROM <tabelle1> INNER JOIN <tabelle2> ON <tabelle1.pk>=<tabelle2.fk> WHERE <Bedingung>;`
 
