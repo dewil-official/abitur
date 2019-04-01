@@ -1,21 +1,4 @@
-# DATABASE SELECTION
-DROP DATABASE IF EXISTS Hollywood;
-CREATE DATABASE Hollywood;
-USE Hollywood;
 
-# TABLE CREATION
-CREATE TABLE Filme (
-    f_nr INT(4) NOT NULL AUTO_INCREMENT,
-    f_name VARCHAR(30),
-    f_erscheinungsjahr INT(4),
-    f_regisseur VARCHAR(20),
-    PRIMARY KEY(f_nr)
-) ENGINE = INNODB;
-
-# FILME EINFÜGEN # All three variants are valid!
-INSERT INTO Filme (f_nr, f_name, f_erscheinungsjahr, f_regisseur) VALUES (NULL, 'Interstellar', 2014, 'Christopher Nolan');
-INSERT INTO Filme VALUES (NULL, 'Iron Man', 2008, 'Jon Favreau');
-INSERT INTO Filme (f_name, f_erscheinungsjahr, f_regisseur) VALUES ('Baby Driver', 2017, 'Edgar Wright');
 
 /*
 	AB HIER:
@@ -72,3 +55,4 @@ UPDATE Lehrer SET l_dienstjahre=l_dienstjahre-1 WHERE l_nr=75;
 
 # ENDAUSGABE: (6 Result) -- Erfolgreich!
 SELECT * FROM Lehrer;
+
