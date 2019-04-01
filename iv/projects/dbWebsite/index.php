@@ -22,13 +22,14 @@
       $sqlPw = "";
       $conn = new mysqli($sqlName, $sqlUser, $sqlPw);
 
-      sendQuery('CREATE DATABASE Hollywood');
-      sendQuery('USE DATABASE Hollywood');
+      sendQuery('DROP DATABASE IF EXISTS Hollywood;', $conn);
+      sendQuery('CREATE DATABASE Hollywood;', $conn);
+      sendQuery('USE DATABASE Hollywood;', $conn);
       sendQuery('CREATE TABLE Filme ( f_nr INT(4) NOT NULL AUTO_INCREMENT,
                                       f_name VARCHAR(20),
-                                      PRIMARY KEY(f_nr)                     )');
+                                      PRIMARY KEY(f_nr)                     );', $conn);
 
-      updateView();
+      updateView($conn);
       $conn->close();
 
     ?>
@@ -38,14 +39,14 @@
 
 <?php
 
-  function sendQuery($sql) {
+  function sendQuery($sql, $conn) {
     if ($conn->query($sql) === TRUE) { /* Good! */ } else {
         echo "Error creating database: " . $conn->error;
     }
   }
 
-  function updateView() {
-    $sql = "SELECT * FROM Filme";
+  function updateView($conn) {
+    $sql = "SELECT * FROM Filme;";
     $result = $conn->query($sql);
     $htmlList = "<ul>";
 
