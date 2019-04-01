@@ -47,6 +47,28 @@ INSERT INTO Lehrer VALUES	(75, 'Herbert', 'Scheck', 'Breiter Weg 18', 31787, 'Ha
 # AUFG. 3: Erweiterung einer Spalte
 ALTER TABLE Lehrer ADD l_dienstjahre INT(3); # Eig. würden 2 INT-Stellen reichen, aber Groni ist die Ausnahme!
 
+# AUFG. 4: Hinzufügen der Dienstjahre
+UPDATE Lehrer SET l_dienstjahre=30 WHERE l_nr=50;
+UPDATE Lehrer SET l_dienstjahre=20 WHERE l_nr=75;
 
+# AUFG. 5: Abfrage aller Spalten (1 Result)
 SELECT * FROM Lehrer;
 
+# AUFG. 6: Durchschnittliche Dienstjahre (3 Result)
+SELECT AVG(l_dienstjahre) FROM Lehrer;
+
+# AUFG. 7: Geburtstagsliste (4 Result)
+SELECT l_vorname, l_name, l_geburtsdatum FROM Lehrer;
+
+# AUFG. 8: Mind. 25 Dienstjahre (5 Result)
+SELECT l_nr, l_vorname, l_name, l_dienstjahre FROM Lehrer WHERE l_dienstjahre>=25;
+
+# AUFG. 9: Schüler löschen
+#(Macht keinen Snens, weil Schüler-Tabelle nicht erstellt werden sollte...)
+# Es wäre: DELETE FROM Schueler WHERE s_name='Schmidt' AND s_vorname='Wendelin';
+
+# AUFG. 10: Dienstjahr abziehen
+UPDATE Lehrer SET l_dienstjahre=l_dienstjahre-1 WHERE l_nr=75;
+
+# ENDAUSGABE: (6 Result) -- Erfolgreich!
+SELECT * FROM Lehrer;
