@@ -19,11 +19,19 @@ Die Klausur wird 300min dauern und in drei gleich große Teile aufgeteilt werden
 
 ### 🏝 Java <a name="java"></a>
 
-
+- [ ] JAVA Guide (Siehe Langzeit)
+- [ ] Überarbeitung des JAVA Guides
 
 ### 🏗 Steuerungstechnik <a name="steuerungstechnik"></a>
 
-
+- [ ] Zahlensysteme
+- [ ] Siehe Mindmap
 
 ### 🔌 Netzwerktechnik <a name="netzwerktechnik"></a>
+
+- [ ] OSI-Modell
+- [ ] Netzwerkgeräte (Hardware)
+- [ ] Subnetting
+- [ ] Filius
+- [ ] Protokolle
 
