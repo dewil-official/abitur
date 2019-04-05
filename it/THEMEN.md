@@ -13,9 +13,9 @@ Auf dieser Seite soll eine Übersicht aller Themengebiete, die in der Informatik
 
 Die Klausur wird 300min dauern und in drei gleich große Teile aufgeteilt werden:
 
-- [Java](#java)
-- [Steuerungstechnik](#steuerungstechnik)
-- [Netzwerktechnik](#netzwerktechnik)
+- [Java](pages/JAVA.md)
+- [Steuerungstechnik]()
+- [Netzwerktechnik](pages/NETZWERKE.md)
 
 ### 🏝 Java <a name="java"></a>
 
