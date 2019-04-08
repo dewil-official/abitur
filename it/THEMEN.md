@@ -18,7 +18,7 @@ In diesem Abschnitt findest Du eine **Übersicht aller [Dokumente](docs)**, die 
 
 ##### 🏝 Java
 
-- [Java - Wiederholung](docs/java_whd.pdf) *von Lam* 
+- [Java - Wiederholung](docs/java_wdh.pdf) *von Lam* 
 
 ##### 🎚 Steuerungstechnik
 
