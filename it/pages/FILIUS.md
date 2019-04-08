@@ -1,6 +1,8 @@
-# Filius Lernzettel 🖥
+# 🖥 Filius Lernzettel
 
 Die Lernsoftware **Filius** dient der Visualisierung von Netzwerken und dessen Konfiguration.
+
+⚠ Zum **Netzwerk-Teil** geht es [hier](NETZWERKE.md)!
 
 ## Inhalt
 

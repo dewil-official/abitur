@@ -1,13 +1,17 @@
-# Netzwerktechnik Lernzettel 🌇
+# 🔌 Netzwerktechnik Lernzettel
 
-Dies ist der Lernzettel für die IT Klausur, basierend auf dem letzten Lernzettel für die Netzwerktechnik-Klausur!
+Dies ist der Lernzettel für die IT Klausur, basierend auf dem letzten Lernzettel für die Netzwerktechnik-Klausur! 
+
+⚠ Zum **Filius-Teil** geht es [hier](FILIUS.md)!
 
 ## Inhalt
 
-1. 🔢 [Wdhl. Zahlensysteme](#kap1)
+1. 🔢 [Wdhl. Zahlensysteme](#kap1) (Wird bald in den Steuerungstechnik-Lernzettel verschoben!)
 2. 🏗 [Das OSI-Modell](#kap2)
 3. 🗓 [IP-Adressen und Subnetze](#kap3)
 4. 📑 [Protokolle](#kap4)
+
+------
 
 ## 🔢 Zahlensysteme (Wdhl.) <a name="kap1"></a>
 
@@ -48,6 +52,8 @@ Umrechnungen kann man sich meist **sehr vereinfachen** und da wir am PC
 schreiben, bietet sich die Verwendung des **Windows-Taschenrechners** an.
 Dieser hat im Tab „Programmieren“ eine Umrechnungsfunktion eingebaut.
 
+------
+
 ## 🏗 Das OSI-Modell <a name="kap2"></a>
 
 Das *„Open Systems Interconnection Model“* ist ein **Referenzmodell**, das seit 1984 durch die ISO
@@ -84,6 +90,8 @@ werden. So sieht es aus:
 | 3 **Vermittlung**   | Diese Ebene sorgt dafür, dass "Pakete" also *etikettierte Datenblöcke* über viele Rechner hinweg reisen können.<br />Dazu werden unter anderem **IP-Adressen** verwendet. Man nennt sie auch die "Netzwerk-Schicht". Die Pakete aus Schicht 4 werden mit einer IP-Adresse versehen und so versandfähig gemacht. |
 | 2 **Sicherung**     | Soll die Verbindung absichern, indem 3.-Schicht Daten in "Frames" also **kleinere Blöcke** geteilt und durch "[Prüfsummen](https://www.it-talents.de/blog/it-talents/was-sind-pruefsummen-checksums)" **mathematisch abgesichert** werden. |
 | 1 **Physisch**      | Kabelverbindungen oder "dumme" Geräte, denen die gesendeten Daten egal sind. |
+
+------
 
 ## 🗓 IP-Adressen und Subnetze  <a name="kap3"></a>
 
@@ -170,6 +178,8 @@ Diese Subnetzmasken werden in grobe Klassen unterteilt: Klasse A, B und C.
 
 Bedenke, dass zum Beispiel 255.192.0.0 z.B. noch als Klasse A gelten würde, das dann nur weiter
 eingeteilt wurde. 255.255.128.0 würde zu Klasse B gehören etc.
+
+------
 
 ## 📑 Protokolle <a name="kap4"></a>
 
