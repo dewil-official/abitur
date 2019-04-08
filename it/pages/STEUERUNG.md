@@ -11,3 +11,5 @@ Außerdem ist dieser Lernzettel **aufgeteilt** in **kleinere Lernzettel** zu den
 - [Steuern & Regeln](steuern/STEUERNuREGELN.md)
 - [Begriffe der IT](steuern/BEGRIFFE.md)
 
+![Mindmap Themen](https://i.postimg.cc/4y4mYcq0/image.png)
+
