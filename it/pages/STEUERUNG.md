@@ -6,8 +6,8 @@ Außerdem ist dieser Lernzettel **aufgeteilt** in **kleinere Lernzettel** zu den
 
 ### 📋 Inhalte
 
-- Zahlensysteme
-- Codes
-- Steuern & Regeln
-- Begriffe der IT
+- [Zahlensysteme](steuern/ZAHLENSYSTEME.md)
+- [Codes](steuern/CODES.md)
+- [Steuern & Regeln](steuern/STEUERNuREGELN.md)
+- [Begriffe der IT](steuern/BEGRIFFE.md)
 
