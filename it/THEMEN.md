@@ -1,37 +1,70 @@
 # 👨🏽‍💻 Informatik
 
-Auf dieser Seite soll eine Übersicht aller Themengebiete, die in der Informatik-Abiturprüfung an unserer Schule stattfinden wird, erstellt werden. Von hier wird dann auf kleinere Lernzettel für die jeweiligen Themengebiete weitergeleitet. Außerdem funktioniert diese Datei als eine Art ToDo-Liste für die Erstellung dieses Lernzettels. [Hier](../README.md) geht es zurück zur Fächerübersicht.
+Auf dieser Seite soll eine **Übersicht aller Themen**, die in der IT-Abiturprüfung an unserer Schule stattfinden wird, erstellt werden. Von hier wird dann auf kleinere **Lernzettel** für die jeweiligen Themengebiete ***weitergeleitet***. Außerdem funktioniert diese Datei als eine Art *ToDo-Liste* für die Erstellung dieses Lernzettels.
 
-### 📔 Inhalt
+### 📋 Lernzettel
 
-1. [Gesamtübersicht](#gesamtübersicht)
-2. [Java](#java)
-3. [Steuerungstechnik](#steuerungstechnik)
-4. [Netzwerktechnik](#netzwerktechnik)
-
-### 📋 Gesamtübersicht <a name="gesamtübersicht"></a>
-
-Die Klausur wird 300min dauern und in drei gleich große Teile aufgeteilt werden:
+Hier findest Du die drei Haupt-Lernzettel für die jeweiligen Fächer:
 
 - [Java](pages/JAVA.md)
-- [Steuerungstechnik]()
+- [Steuerungstechnik](pages/STEUERUNG.md)
 - [Netzwerktechnik](pages/NETZWERKE.md)
 
-### 🏝 Java <a name="java"></a>
+------
 
-- [ ] JAVA Guide (Siehe Langzeit)
-- [ ] Überarbeitung des JAVA Guides
+### 📰 Dokumente
 
-### 🏗 Steuerungstechnik <a name="steuerungstechnik"></a>
+In diesem Abschnitt findest Du eine **Übersicht aller [Dokumente](docs)**, die ich hier auf GitHub hoste!
 
-- [ ] Zahlensysteme
-- [ ] Siehe Mindmap
+##### 🏝 Java
 
-### 🔌 Netzwerktechnik <a name="netzwerktechnik"></a>
+- [Java - Wiederholung](docs/java_whd.pdf) *von Lam* 
 
-- [ ] OSI-Modell
-- [ ] Netzwerkgeräte (Hardware)
-- [ ] Subnetting
-- [ ] Filius
-- [ ] Protokolle
+##### 🎚 Steuerungstechnik
 
+| Lehrer                                                       | Eigenes                                                   |
+| ------------------------------------------------------------ | --------------------------------------------------------- |
+| 1. ["Steuern und Regeln"](docs/steuerung/01_Steuern_und_Regeln.pdf) | 4.3 "Codes" [Meine Lösung](docs/steuerung/4.3_Codes.docx) |
+| 2. ["Pneumatik"](docs/steuerung/02_Pneumatik.pdf)            | 4.4 "Signalarten" [Meine Lösung](docs/steuerung/4.4.docx) |
+| 3. ["Steuerungsarten"](docs/steuerung/03_Steuerungsarten.pdf) |                                                           |
+| 4. ["Pneumatik"](docs/steuerung/04_Pneumatik.pdf)            |                                                           |
+| 5. ["Signalarten"](docs/steuerung/05_Signalarten.pdf)        |                                                           |
+| 8. ["Automatisierungstechnik"](docs/steuerung/08_Automatisierungstechnik.pdf) |                                                           |
+
+##### 🔌 Netzwerke
+
+Hier gibt es viele Dokumente, daher verlinke ich hier nur die **Themen-Ordner**:
+
+- [OSI & Grundlagen](docs/netzwerke/osi_u_grundlagen)
+- [Subnetting](docs/netzwerke/subnetting)
+- [Referate (Protokolle)](docs/netzwerke/referate)
+- [Firewall & Routing](docs/netzwerke/advanced)
+
+------
+
+### ☑ ToDo Liste
+
+Hier ist meine persönliche ToDo-Liste für die Erstellung dieses Lernzettels:
+*Du kannst diesen Abschnitt gerne als eigene To-Learn Liste nutzen. ^^*
+
+- [ ] Allgemeines
+  - [x] Einfügen aller Dokumente
+  - [ ] Erstellen von Übungsaufgaben
+- [ ] Java-Programmierung
+  - [ ] [Java Lernzettel](pages/JAVA.md) (Langzeit-Teil überarbeiten)
+  - [ ] Lernzettel für technische Grundlagen (IDEs, Compiler, etc.)
+- [ ] Steuerungstechnik (Kleinere Lernzettel für die Themen)
+
+  - [ ] Zahlensysteme
+  - [ ] Codes
+  - [ ] Steuern & Regeln
+  - [ ] Begriffe der IT
+- [ ] Netzwerktechnik
+
+  - [ ] OSI-Modell
+  - [ ] Netzwerkgeräte (Hardware)
+  - [ ] Protokolle
+  - [ ] Subnetting
+  - [ ] Filius
+
+Ziel ist es, zu jedem dieser Themen einen eigenen Lernzettel zu erstellen.
