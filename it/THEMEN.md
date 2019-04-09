@@ -47,18 +47,21 @@ Hier gibt es viele Dokumente, daher verlinke ich hier nur die **Themen-Ordner**:
 Hier ist meine persönliche ToDo-Liste für die Erstellung dieses Lernzettels:
 *Du kannst diesen Abschnitt gerne als eigene To-Learn Liste nutzen. ^^*
 
-- [ ] Allgemeines
+- [x] Allgemeines
   - [x] Einfügen aller Dokumente
-  - [ ] Erstellen von Übungsaufgaben
+
 - [ ] Java-Programmierung
   - [ ] [Java Lernzettel](pages/JAVA.md) (Langzeit-Teil überarbeiten)
-  - [ ] Lernzettel für technische Grundlagen (IDEs, Compiler, etc.)
+  - [ ] Erstellen von mehr Übungsaufgaben
+
 - [ ] Steuerungstechnik (Kleinere Lernzettel für die Themen)
 
   - [ ] Zahlensysteme
   - [ ] Codes
   - [ ] Steuern & Regeln
   - [ ] Begriffe der IT
+  - [ ] Erstellen von Übungsaufgaben
+
 - [ ] Netzwerktechnik
 
   - [ ] OSI-Modell
@@ -66,5 +69,8 @@ Hier ist meine persönliche ToDo-Liste für die Erstellung dieses Lernzettels:
   - [ ] Protokolle
   - [ ] Subnetting
   - [ ] Filius
+  - [ ] Erstellen von Übungsaufgaben
 
-Ziel ist es, zu jedem dieser Themen einen eigenen Lernzettel zu erstellen.
+  
+
+  Ziel ist es, zu jedem dieser Themen einen eigenen Lernzettel zu erstellen.

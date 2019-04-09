@@ -23,11 +23,11 @@ Dies ist der Lernzettel für die IT Klausur - Basierend auf dem herausgegebenen 
 | ---------- | ------------------------------------------------------------ |
 | ❕          | Besonders *wichtiger* Abschnitt.                             |
 | 🔁          | Kurze *Zusammenfassung*.                                     |
-| 💫          | *Zusatzinfos*, die beim Verständnis helfen können, aber nicht notwendig sind. |
+| 🌟          | *Zusatzinfos*, die beim Verständnis helfen können, aber nicht notwendig sind. |
 
 ## 🏐 Objektorientierte Programmierung <a name="kap1"></a>
 
-Java ist eine der größten sogenannten *Objektorientierten Programmiersprachen* und Greenfoot verwendet Java als Programmiersprache. Deshalb ist es wichtig, überhaupt zu verstehen, womit wir arbeiten.
+**Java** ist eine der größten sogenannten *Objektorientierten Programmiersprachen* und Greenfoot verwendet Java als Programmiersprache. Deshalb ist es wichtig, überhaupt zu verstehen, womit wir arbeiten.
 
 ### Was ist das überhaupt?
 
@@ -45,11 +45,13 @@ Es gibt eine Klasse namens *Auto*. In der Klasse ist festgelegt, dass alle Autos
 
 Dann wird das Programm ausgeführt und ein *Auto* wird erzeugt. Dieses spezielle *Auto* ist jetzt also gebaut worden und existiert jetzt als *Objekt*. Dieses Auto bekommt die *Marke* "Lada" zugewiesen und es soll drei Mal *fahren*, diese Funktion wird also 3 Mal ausgeführt.
 
-### 💫 Advanced Stuff
+### 🌟 Advanced Stuff
 
-Viele Programmiersprachen unterstützen außerdem das Konzept der *Vererbung*. So kann man in Java Beispielsweise eine Klasse "Auto" erstellen und die Klasse "VW" erbt dann alle Eigenschaften und Funktionen der "Auto"-Klasse, wird aber z.B. um die Eigenschaften "Modell" und "PS" erweitert.
+Viele Programmiersprachen unterstützen außerdem das Konzept der *Vererbung*. So kann man in Java Beispielsweise eine Klasse "Auto" erstellen und die Klasse "VW" erbt dann alle **Eigenschaften und Funktionen** der "Auto"-Klasse, wird aber z.B. um die Eigenschaften "Modell" und "PS" erweitert.
 
-Objekte sind grundsätzlich von der Außenwelt *abgekapselt* und können nicht ohne weiteres von außen beeinflusst werden (es sei denn, man will das). Objekte entscheiden grundsätzlich selbst über ihr Verhalten. Mehr dazu im Kapitel [Variablen](change me).
+Objekte sind grundsätzlich von der Außenwelt *abgekapselt* und können nicht ohne weiteres von außen beeinflusst werden (es sei denn, man will das). Objekte entscheiden grundsätzlich selbst über ihr Verhalten. Mehr dazu im Kapitel [Klassen und Objekte](#kap6).
+
+------
 
 ## 🎫 Konzepte von Greenfoot <a name="kap2"></a>
 
@@ -66,6 +68,8 @@ Außerdem gibt es **World**s, dies sind auch nur festgelegte Klassen, in denen O
 Die **Oberfläche** von Greenfoot enhält ein großes Fenster, in dem live (als Vorschau) eine Welt geladen werden kann, außerdem können *act()* Zyklen simuliert werden. Ein Klick auf "Run" simuliert diese Zyklen im Loop.
 
 An der rechten Leiste sind alle Klassen des Spiels aufgelistet. Dort können neue Actors und Worlds erstellt werden.
+
+------
 
 ## 🎢 Java Grundlagen <a name="kap3"></a>
 
@@ -110,6 +114,8 @@ Der **Syntax**, also wie Code in Java strukturiert und artikuliert werden muss, 
 
 ...wird in den folgenden Abschnitten detailliert erklärt.
 
+------
+
 ## 🎰 Datentypen <a name="kap4"></a>
 
 Wann immer etwas neues im **Speicher** abgelegt werden soll, müssen dessen Zugriffsrechte und der Datentyp festgelegt werden.
@@ -125,7 +131,7 @@ Bei der Erstellung muss mithilfe eines **Zugriffsmodifikators** festgelegt werde
 | `private`      | Sichtbar innerhalb der eigenen Klasse.              |
 | `protected`    | Sichtbar für das Programmpaket und alle Subklassen. |
 
-### 💫 Modifikatoren
+### 🌟 Modifikatoren
 
 Abseits der Zugriffsmodifikatoren können sogenannte **Nicht-Zugriffs Modifikatoren** festgelegt werden.
 
@@ -139,20 +145,21 @@ Abseits der Zugriffsmodifikatoren können sogenannte **Nicht-Zugriffs Modifikato
 
 Bei der Erstellung von **Variablen** muss der Typ festgelegt werden, also was gespeichert werden soll.
 
-| Code       | Wertebereich                                       | Beschreibung                                                 |
-| ---------- | -------------------------------------------------- | ------------------------------------------------------------ |
-| ❕`boolean` | `true` oder `false`                                | Ist wie ein Schalter - kann nur aktiviert oder deaktiviert werden. |
-| `byte`     | `-128` bis `127`                                   | Speichern von kleineren ganzen Zahlen.                       |
-| `short`    | `-32768` bis `32767`                               | Speichern von etwas größeren Ganzzahlen.                     |
-| ❕`int`     | `-2147483648` bis `2147483647`                     | Speichern von großen Ganzzahlen, wird am häufigsten verwendet. |
-| `long`     | `-9223372036854775808` bis `9223372036854775808`   | Speichern von sehr großen Ganzzahlen.                        |
-| ❕`float`   | `3.4e−038` bis `3.4e+038`                          | Speichern von Kommazahlen.                                   |
-| `double`   | `1.7e−308` bis `1.7e+038`                          | Speichern von sehr kleinen Kommazahlen.                      |
-| `char`     | Buchstabe / Zeichen                                | Speichern einzelner Buchstaben / Zeichen.                    |
-| ❕`String`  | Sequenz mehrerer `char`'s                          | Speichern von längeren Sätzen oder Wörtern.                  |
-| `[]`       | `Array` enthält *Variablen, Objekte, Arrays, etc.* | Speichern beliebiger Daten an einem Ort. Kann gut durch Loops erstellt und abgerufen werden. |
+| Code          | Wertebereich                                       | Beschreibung                                                 |
+| ------------- | -------------------------------------------------- | ------------------------------------------------------------ |
+| ❕`boolean`    | `true` oder `false`                                | Ist wie ein Schalter - kann nur aktiviert oder deaktiviert werden. |
+| `byte`        | `-128` bis `127`                                   | Speichern von kleineren ganzen Zahlen.                       |
+| `short`       | `-32768` bis `32767`                               | Speichern von etwas größeren Ganzzahlen.                     |
+| ❕`int`        | `-2147483648` bis `2147483647`                     | Speichern von großen Ganzzahlen, wird am häufigsten verwendet. |
+| `long`        | `-9223372036854775808` bis `9223372036854775808`   | Speichern von sehr großen Ganzzahlen.                        |
+| ❕`float`      | `3.4e−038` bis `3.4e+038`                          | Speichern von Kommazahlen.                                   |
+| `double`      | `1.7e−308` bis `1.7e+038`                          | Speichern von sehr kleinen Kommazahlen. *(Genauer / Besser als `float`, verbraucht aber 64 statt 32 Bits im RAM)* |
+| 🌟`BigDecimal` | ± `2240*10232`                                     | Speichern von großen Zahlen mit Kommaanteil *(z.B. Währungen)* |
+| `char`        | Buchstabe / Zeichen                                | Speichern einzelner Buchstaben / Zeichen.                    |
+| ❕`String`     | Sequenz mehrerer `char`'s                          | Speichern von längeren Sätzen oder Wörtern.                  |
+| `[]`          | `Array` enthält *Variablen, Objekte, Arrays, etc.* | Speichern beliebiger Daten an einem Ort. Kann gut durch Loops erstellt und abgerufen werden. |
 
-### 💫 Arrays
+### Arrays
 
 Ein Array ist eine **Liste von Objekten** (Also auch Variablen). Man nutzt dabei die `[ ]` wie folgt:
 
@@ -167,7 +174,7 @@ System.out.println(zahlen[1]); // Gibt "1" aus.
 
 ### Funktionen / Methoden
 
-Eine **Funktion** ist ein Codeabschnitt, der separat abgespeichert wird, damit er einfacher mehrmals ausgeführt werden kann. Eine Funktion erfüllt normalerweise immer einen bestimmten Zweck.
+Eine **Funktion** ist ein Codeabschnitt, der separat abgespeichert wird, damit er einfacher mehrmals ausgeführt werden kann. Eine Funktion erfüllt normalerweise immer <u>einen</u> bestimmten Zweck.
 
 Beispiel: Überprüfe etwas. Oder setze mehrere Variablen zurück.
 
@@ -212,7 +219,7 @@ Lässt man sich das Ergebnis von `checkValid(3)` ausgeben, so gibt die Konsole `
 
 Statt `boolean` lassen sich auch beliebige andere Datentypen verwenden. Gibt es keinen Rückgabetyp, muss `void` verwendet werden. Gibt es einen, muss `return` dann eine Antwort zurückgeben. Jeder Parameter muss in der Klammer mit Datentyp angegeben werden. Argumente werden per Komma getrennt.
 
-### 💫 Scope
+### 🌟 Scope
 
 Der **Scope** legt fest, zu welchem Objekt bzw. welcher Klasse die *Variablen und Methoden* gehören. Das wird festgelegt, je nach dem wo der Code geschrieben steht.  Beispiel:
 
@@ -266,6 +273,8 @@ System.out.println("name: " + name);
 
 *Kopiere diesen Code ruhig in Greenfoot und führe ihn aus! z.B. könntest Du ihn in den Konstruktur (nach dem super(); ) der aktuellen Welt einfügen und dann per*`Rechtsklick > new MyWorld()` *auf die Welt den Code ausführen.*
 
+------
+
 ## 👨‍💻 Rechnen mit Variablen <a name="kap5"></a>
 
 Mithilfe des `=` Operators lässt sich eine **Variable zuweisen**. Das lässt sich nutzen. Auf der rechten Seite kann deshalb auch eine Rechnung stehen, die wird vom Programm dann zuerst ausgerechnet und dann ganz normal zugewiesen. Normale Rechenoperatoren wie `+ - * / ()` werden ganz normal verstanden.
@@ -313,6 +322,8 @@ Neues Ergebnis: 35
 Drittes Ergebnis: 4305
 ```
 
+------
+
 ## 🔩 Klassen und Objekte <a name="kap6"></a>
 
 Wie im Kapitel [Objektorientierte Programmierung](#kap1) erklärt, gibt es in Java sogenannte **Klassen und Objekte**, wie diese Konzepte in Java umzusetzen sind, lässt sich wieder anhand eines Beispiels anschaulich erklären:
@@ -350,8 +361,10 @@ public class ExampleWorld extends World
 - *Importiere* alle verfügbaren Klassen von Greenfoot, in diesem Fall wird vor allem die *Welt*-Klasse gebraucht
 - `public class ExampleWorld extends World` erstellt eine neue Welt, die aus der Oberklasse `World` erbt. Die Oberklasse stammt aus dem importierten Greenfoot-Paket.
 - Die Variable `zufall` wird in der Klasse erstellt, aber sobald aus der Klasse ein Objekt erstellt wird (Sobald der Bauplan gebaut wird), wird die Variable erhöht:
-- Der Konstruktor `public ExampleWorld()` wird ausgeführt, sobald ein `ExampleWorld()`-Objekt erstellt wird.
+- Der **Konstruktor** `public ExampleWorld()` wird ausgeführt, sobald ein `ExampleWorld()`-Objekt erstellt wird.
 - Die Methode `outputLol()` wird ohne [Rückgabetyp](#kap4) erstellt und im Konstruktor ausgeführt.
+
+------
 
 ## 🔗 Bedingungen <a name="kap7"></a>
 
@@ -394,7 +407,7 @@ Man kann auch mehrere Bedingungen miteinander verknüpfen:
 
 - `||` ist gleich *oder*, es wird aktiv wenn eine der Bedingungen wahr ist.
 - `&&` ist gleich *und*, es wird aktiv wenn beide Bedingungen wahr sind.
-- 💫 `!` kann jede Bedingung invertieren.
+- 🌟 `!` kann jede Bedingung invertieren.
 
 Das kann dann so aussehen:
 
@@ -419,7 +432,7 @@ if(((7 > 5) && (8 > 5)) || (5 < 3)) {
 | `if (Bedingung)` | Wenn die Bedingung zutrifft wird der nachfolgende Code ausgeführt.<br />Der Code kann entweder danach in derselben Zeile stehen, oder zwischen `{ }` |
 | `else`           | Kann nach den `{ }` eines `if`-Blocks stehen und wird ausgeführt,<br />wenn dieser nicht ausgeführt wurde. |
 | `else if`        | Wird ausgeführt, wenn der vorherige `if`-Block nicht ausgeführt wurde.<br />Besonders hilfreich in einer Verkettung aus mehreren Bedingungen. |
-| 💫`switch (var)`  | Kann viele Möglichkeiten für die Variable in Klammern durchgehen.<br />Format: `switch (var) { case 1: code1(); case 2: code2(); }`<br />Wenn `var == 1` dann wird `code1()` ausgeführt. |
+| 🌟`switch (var)`  | Kann viele Möglichkeiten für die Variable in Klammern durchgehen.<br />Format: `switch (var) { case 1: code1(); case 2: code2(); }`<br />Wenn `var == 1` dann wird `code1()` ausgeführt. |
 
 Das kann so aussehen:
 
@@ -449,6 +462,8 @@ switch (monat) {
     // Und so weiter...
 }
 ```
+
+------
 
 ## 🌠 Schleifen <a name="kap8"></a>
 
@@ -484,6 +499,8 @@ Die *For-Schleife* ist wie eine While-Schleife, die automatisch zwei Code-Blöck
 
 In der Praxis wird das meistens verwendet, um einen **Counter** zu haben, der den Code eine bestimmte Häufigkeit lang ausführt.
 
+------
+
 ## 🐫 Ausgaben <a name="kap9"></a>
 
 ##### Konsolenausgabe
@@ -491,7 +508,7 @@ In der Praxis wird das meistens verwendet, um einen **Counter** zu haben, der de
 - `System.out.println()` gibt den Text in Klammern in die Konsole aus und erstellt dann eine neue Zeile.
 - `System.out.print()` gibt den Text in Klammern in die Konsole aus, ohne neue Zeile.
 
-##### 💫 Systempakete
+##### 🌟 Systempakete
 
 In Java werden Programme in sogenannte **Pakete** unterteilt. Einige Pakete gibt es immer wie `System` und `Java`. In Greenfoot wird auch z.B. das Paket `Greenfoot` importiert.
 
@@ -499,9 +516,11 @@ Deshalb heißt auch der Befehl zur Konsolenausgabe `System.out.print()`, er geh�
 
 Pakete sind übrigens auch nichts anderes als **Objekte**. Man kann auf Objekt-Eigenschaften genauso zugreifen: `Objekt.Eigenschaft = 0;`
 
+------
+
 ## ✨ Sauberen Code schreiben! <a name="kap10"></a>
 
-`💫 Dieses Kapitel ist zu 100% optional!`
+`🌟 Dieses Kapitel ist zu 100% optional!`
 
 **Sauberen** Code zu schreiben ist wichtig!
 
@@ -561,6 +580,8 @@ if ( a >= 3 ) {
 
 **Nutze sie!** Nicht jede Zeile muss kommentiert werden, aber zu beschreiben, wie Du ein bestimmtes Problem gelöst hast, ist wichtig! Du selbst wirst diesen Code dadurch sehr viel einfacher lesen können, genauso wie alle anderen Leute, die deinen Code lesen.
 
+------
+
 ## 👓 Übungsaufgaben <a name="kap11"></a>
 
 ### Kurzaufgaben
@@ -602,6 +623,8 @@ if ( a >= 3 ) {
 ### Finde-den-Fehler
 
 ...
+
+------
 
 ## 🎀 Lösungen <a name="kap12"></a>
 
