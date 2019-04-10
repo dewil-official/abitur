@@ -60,5 +60,5 @@ $$
 
 *("Too long, didn't read")*
 
-Nutze einfach den Windows-Taschenrechner (Kategorie "Programmierer") in der Klausur!
+Nutze einfach den ***Windows-Taschenrechner*** (Kategorie "Programmierer") in der Klausur!
 
