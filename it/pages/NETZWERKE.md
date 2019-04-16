@@ -4,57 +4,17 @@ Dies ist der Lernzettel für die IT Klausur, basierend auf dem letzten Lernzette
 
 ⚠ Zum **Filius-Teil** geht es [hier](FILIUS.md)!
 
+⚠ Zum **Zahlensysteme-Teil** geht es [hier](steuern/ZAHLENSYSTEME.md)!
+
 ## Inhalt
 
-1. 🔢 [Wdhl. Zahlensysteme](#kap1) (Wird bald in den Steuerungstechnik-Lernzettel verschoben!)
-2. 🏗 [Das OSI-Modell](#kap2)
-3. 🗓 [IP-Adressen und Subnetze](#kap3)
-4. 📑 [Protokolle](#kap4)
+1. 🏗 [Das OSI-Modell](#kap1)
+2. 🗓 [IP-Adressen und Subnetze](#kap2)
+3. 📑 [Protokolle](#kap3)
 
 ------
 
-## 🔢 Zahlensysteme (Wdhl.) <a name="kap1"></a>
-
-**Zahlen** werden heutzutage an jeder Ecke verwendet, wenn eine Menge oder ein Wert *fest definiert*
-werden muss. Im Alltag verwenden wir normalerweise das **Dezimalsystem**, in dem genau **Zehn
-verschiedene Zustände** pro Ziffer darstellt werden können. Das ist dahingehend praktisch, da der
-Mensch selbst 10 Finger besitzt und so diese Werte leicht nachvollziehen kann. Anstatt von 0 bis 9 zu zählen, gibt es aber noch andere Möglichkeiten. *(Siehe Tabelle unten)*
-
-**Binär und Hexadezimal** sind die populärsten anderen Zahlensysteme, allerdings kann man beliebig viele Zahlensysteme selbst erstellen, denn das Grundprinzip ist immer dasselbe. Jedes System zeichnet sich dadurch aus, wie viele Zustände sich in einer Stelle darstellen lassen. Dezimalzahlen (10er), Binär (2er) und Hexadezimal (16er). - So fängt man in einem 2er System schon bei der Zahl 3 an, eine zweite Ziffer vorne anzuhängen, im Dezimalsystem ab der Zahl 10 und im Hexadezimalsystem ab der 16.
-
-| Dezimal | Binär | Hexadezimal |
-| ------- | ----- | ----------- |
-| 0       | 0     | 0           |
-| 1       | 1     | 1           |
-| 2       | 10    | 2           |
-| 3       | 11    | 3           |
-| 4       | 100   | 4           |
-| 5       | 101   | 5           |
-| 6       | 110   | 6           |
-| 7       | 111   | 7           |
-| 8       | 1000  | 8           |
-| 9       | 1001  | 9           |
-| 10      | 1010  | A           |
-| 11      | 1011  | B           |
-| 12      | 1100  | C           |
-| 13      | 1101  | D           |
-| 14      | 1110  | E           |
-| 15      | 1111  | F           |
-
-Welchen Wert hat nun die *Binärzahl 100*?
-$$
-Binär 100 => 1*2^2 + 0*2^1 + 0*2^0 => 1*4 + 0 + 0 => 4 Dezimal
-$$
-
-##### Tipp für die Klausur:
-
-Umrechnungen kann man sich meist **sehr vereinfachen** und da wir am PC
-schreiben, bietet sich die Verwendung des **Windows-Taschenrechners** an.
-Dieser hat im Tab „Programmieren“ eine Umrechnungsfunktion eingebaut.
-
-------
-
-## 🏗 Das OSI-Modell <a name="kap2"></a>
+## 🏗 Das OSI-Modell <a name="kap1"></a>
 
 Das *„Open Systems Interconnection Model“* ist ein **Referenzmodell**, das seit 1984 durch die ISO
 (International Organization for Standardization) anerkannt wurde. Es stellt die **Netzwerkprotokolle
@@ -93,7 +53,7 @@ werden. So sieht es aus:
 
 ------
 
-## 🗓 IP-Adressen und Subnetze  <a name="kap3"></a>
+## 🗓 IP-Adressen und Subnetze  <a name="kap2"></a>
 
 ##### Aufbau
 
@@ -181,7 +141,7 @@ eingeteilt wurde. 255.255.128.0 würde zu Klasse B gehören etc.
 
 ------
 
-## 📑 Protokolle <a name="kap4"></a>
+## 📑 Protokolle <a name="kap3"></a>
 
 Um in einem Netzwerk kommunizieren zu können, gibt es mehrere **Netzwerkprotokolle**, die das Format bestimmen, also *wie* die Daten übermittelt werden.
 

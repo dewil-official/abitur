@@ -6,9 +6,10 @@ Auf dieser Seite soll eine **Übersicht aller Themen**, die in der IT-Abiturprü
 
 Hier findest Du die drei Haupt-Lernzettel für die jeweiligen Fächer:
 
-- [Java](pages/JAVA.md) *80%*
-- [Steuerungstechnik](pages/STEUERUNG.md) *80%*
-- [Netzwerktechnik](pages/NETZWERKE.md) *85%*
+- [Java](pages/JAVA.md) *85%*
+- [Steuerungstechnik](pages/STEUERUNG.md) *85%*
+- [Netzwerktechnik](pages/NETZWERKE.md) *75%*
+  - [Filius](pages/FILIUS.md) *75%*
 
 ------
 
@@ -58,7 +59,7 @@ Hier ist meine persönliche ToDo-Liste für die Erstellung dieses Lernzettels:
 - [x] Steuerungstechnik (Kleinere Lernzettel für die Themen)
 
   - [x] Zahlensysteme
-    - [ ] Überarbeitung mit Watermanns PDF
+    - [x] Überarbeitung mit Watermanns PDF
   - [x] Codes
   - [x] Steuern & Regeln
   - [x] Begriffe der IT
@@ -71,9 +72,10 @@ Hier ist meine persönliche ToDo-Liste für die Erstellung dieses Lernzettels:
   - [x] Protokolle
     - [ ] Ergänzung mit Referatsthemen
   - [x] Subnetting
-  - [ ] Filius
+  - [ ] Filius Ergänzung (Routing / Firewalls)
   - [ ] Erstellen von Übungsaufgaben
 
   
 
   Ziel ist es, zu jedem dieser Themen einen eigenen Lernzettel zu erstellen.
+
