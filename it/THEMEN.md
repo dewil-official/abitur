@@ -8,7 +8,7 @@ Hier findest Du die drei Haupt-Lernzettel für die jeweiligen Fächer:
 
 - [Java](pages/JAVA.md) *85%*
 - [Steuerungstechnik](pages/STEUERUNG.md) *85%*
-- [Netzwerktechnik](pages/NETZWERKE.md) *80%*
+- [Netzwerktechnik](pages/NETZWERKE.md) *85%*
   - [Filius](pages/FILIUS.md) *75%*
 
 ------
@@ -68,7 +68,7 @@ Hier ist meine persönliche ToDo-Liste für die Erstellung dieses Lernzettels:
 - [x] Netzwerktechnik
 
   - [x] OSI-Modell
-  - [ ] Netzwerkgeräte (Hardware)
+  - [x] Netzwerkgeräte (Hardware)
   - [x] Protokolle
     - [x] Ergänzung mit Referatsthemen
   - [x] Subnetting

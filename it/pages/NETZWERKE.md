@@ -11,6 +11,7 @@ Dies ist der Lernzettel für die IT Klausur, basierend auf dem letzten Lernzette
 1. 🏗 [Das OSI-Modell](#kap1)
 2. 🗓 [IP-Adressen und Subnetze](#kap2)
 3. 📑 [Protokolle](#kap3)
+4. 🖨 [Geräte](#kap4)
 
 ------
 
@@ -148,4 +149,17 @@ Eine Übersicht aller wichtigen Protokolle des OSI-Modells gibt es hier:
 | FTP   | 5-7             | Übertragen von Dateien                                 | Wird u.a. verwendet um auf das Dateisystem eines Servers zuzugreifen. z.B. wenn man bei Nitrado einen Gameserver mietet. |
 | ARP   | 2 - Sicherung   | Auflösen von MAC-Adressen (Physische Adressen)         | IP-Adressen können sich ändern, um also innerhalb eines lokalen Netzes zuverlässig die Pakete zuordnen zu können, benötigt man die MAC-Adresse. ARP sucht und findet diese. |
 | QoS   | 3 - Router      | Aufteilen der Bandbreite                               | Moderne Router (Aber auch z.B. Software oder andere Geräte) können dynamisch die Bandbreite zwischen Geräten oder Programmen aufteilen - Damit das Laden von Wikipedia nicht Netflix unterbricht! |
+
+## 🖨 Geräte <a name="kap4"></a>
+
+In diesem Kapitel sind einige verschiedene Geräte aufgetaucht, insbesondere im OSI-Modell, die aber selten wirklich erklärt wurden. Deshalb hier eine kurze Liste der Netzwerkgeräte und was sie tun:
+
+- **Kabel** übertragen Daten.
+- **Repeater** verbinden sich meist über Wifi mit dem Router und fungieren selbst als Access-Point. Sie leiten die Anfragen dann einfach an den Router weiter.
+- **Hubs** nutzt man heute nicht mehr. Sie waren eine Art Verteiler für Daten, wo man mehrere Kabel hineinstecken konnte um mehr als nur 2 PCs zu verbinden. Allerdings werden bei einem Hub alle Daten an alle Teilnehmer verschickt - Anstatt wie bei einem Switch genau zuzuordnen. Das sorgt für hohe Netzauslastung und unnötigen Verkehr.
+- **Layer-2 Switches** sind "einfache" Switches, d.h. wie ein intelligenter Hub, der aber die MAC-Adressen der Teilnehmer kennt und dementsprechend weiterleitet.
+- **Layer-3 Switches** sind "riesige / komplexere" Switches, oft verwendet in Unternehmen oder z.B. unserer Schule. In diesen Hochleistungs-Switches ist meistens auch ein Router integriert, sodass die angeschlossenen Geräte voneinander getrennt werden können. So ein Switch hat teilweise mehr Anschlüsse als ein Netz IPs hätte - Daher die Router-Funktionalität.
+- **Router** stellen eine Verbindung zwischen mehreren Netzen her. Dadurch sind sie eine Art "Tor zur Außenwelt" - Sie leiten die Anfragen dann weiter.
+- **Bridges** sind auch alt und werden nicht mehr verwendet. Sie funktionieren ähnlich wie ein Switch, nur mit weniger Anschlüssen - Konnten aber damals auch Architekturen wie Ethernet oder Token Ring verbinden. Heute nimmt man lieber Switches oder Router, weil meist sowieso das MAC-Verfahren verwendet wird.
+- **Modem** ist ein altes Gerät, das Internet-Signale in (hörbare) Töne für die Übertragung durch die Telefon-Leitung umwandelt. Vor dem DSL-Ausbau sehr verbreitet. In Filius wird damit die Brücke zwischen mehreren Rechnern simuliert.
 
