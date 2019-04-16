@@ -8,14 +8,14 @@ Hier findest Du die drei Haupt-Lernzettel für die jeweiligen Fächer:
 
 - [Java](pages/JAVA.md) *85%*
 - [Steuerungstechnik](pages/STEUERUNG.md) *85%*
-- [Netzwerktechnik](pages/NETZWERKE.md) *75%*
+- [Netzwerktechnik](pages/NETZWERKE.md) *80%*
   - [Filius](pages/FILIUS.md) *75%*
 
 ------
 
 ### 📰 Dokumente
 
-In diesem Abschnitt findest Du eine **Übersicht aller [Dokumente](docs)**, die ich hier auf GitHub hoste!
+In diesem Abschnitt findest Du eine **Übersicht aller [Dokumente](docs) aus dem Unterricht**, die ich hier auf GitHub hoste!
 
 ##### 🏝 Java
 
@@ -23,7 +23,7 @@ In diesem Abschnitt findest Du eine **Übersicht aller [Dokumente](docs)**, die 
 
 ##### 🎚 Steuerungstechnik
 
-| Lehrer                                                       | Eigenes                                                   |
+| Lehrer (PDFs)                                                | Eigenes (Word)                                            |
 | ------------------------------------------------------------ | --------------------------------------------------------- |
 | 1. ["Steuern und Regeln"](docs/steuerung/01_Steuern_und_Regeln.pdf) | 4.3 "Codes" [Meine Lösung](docs/steuerung/4.3_Codes.docx) |
 | 2. ["Pneumatik"](docs/steuerung/02_Pneumatik.pdf)            | 4.4 "Signalarten" [Meine Lösung](docs/steuerung/4.4.docx) |
@@ -70,7 +70,7 @@ Hier ist meine persönliche ToDo-Liste für die Erstellung dieses Lernzettels:
   - [x] OSI-Modell
   - [ ] Netzwerkgeräte (Hardware)
   - [x] Protokolle
-    - [ ] Ergänzung mit Referatsthemen
+    - [x] Ergänzung mit Referatsthemen
   - [x] Subnetting
   - [ ] Filius Ergänzung (Routing / Firewalls)
   - [ ] Erstellen von Übungsaufgaben
