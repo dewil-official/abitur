@@ -7,7 +7,7 @@ Auf dieser Seite soll eine **Übersicht aller Themen**, die in der IT-Abiturprü
 Hier findest Du die drei Haupt-Lernzettel für die jeweiligen Fächer:
 
 - [Java](pages/JAVA.md) *80%*
-- [Steuerungstechnik](pages/STEUERUNG.md) *65%*
+- [Steuerungstechnik](pages/STEUERUNG.md) *80%*
 - [Netzwerktechnik](pages/NETZWERKE.md) *85%*
 
 ------
