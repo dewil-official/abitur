@@ -51,24 +51,26 @@ Hier ist meine persönliche ToDo-Liste für die Erstellung dieses Lernzettels:
 
   - [x] Einfügen aller Dokumente
 
-- [ ] Java-Programmierung
-  - [ ] [Java Lernzettel](pages/JAVA.md) (Langzeit-Teil überarbeiten)
+- [x] Java-Programmierung
+  - [x] [Java Lernzettel](pages/JAVA.md) (Langzeit-Teil überarbeiten)
   - [ ] Erstellen von mehr Übungsaufgaben
 
-- [ ] Steuerungstechnik (Kleinere Lernzettel für die Themen)
+- [x] Steuerungstechnik (Kleinere Lernzettel für die Themen)
 
-  - [ ] Zahlensysteme
-  - [ ] Codes
-  - [ ] Steuern & Regeln
-  - [ ] Begriffe der IT
+  - [x] Zahlensysteme
+    - [ ] Überarbeitung mit Watermanns PDF
+  - [x] Codes
+  - [x] Steuern & Regeln
+  - [x] Begriffe der IT
   - [ ] Erstellen von Übungsaufgaben
 
-- [ ] Netzwerktechnik
+- [x] Netzwerktechnik
 
-  - [ ] OSI-Modell
+  - [x] OSI-Modell
   - [ ] Netzwerkgeräte (Hardware)
-  - [ ] Protokolle
-  - [ ] Subnetting
+  - [x] Protokolle
+    - [ ] Ergänzung mit Referatsthemen
+  - [x] Subnetting
   - [ ] Filius
   - [ ] Erstellen von Übungsaufgaben
 
