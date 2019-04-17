@@ -45,7 +45,7 @@ Die Lernsoftware **Filius** dient der Visualisierung von Netzwerken und dessen K
 | Gateway     | *Wird im Falle eines DHCPs automatisch übermittelt.*<br />Gibt an, wohin Daten gesendet werden sollen, wenn der Empfänger nicht im selben (Sub-)Netz liegt. |
 | DNS         | *Wird im Falle eines DHCPs automatisch übermittelt.*<br />Gibt an, wo die IP-Adressen zu Domains (z.B. "google.de") nachgeschaut werden sollen. |
 
-##### Software
+### Software
 
 Auf jedem PC / Notebook können folgende Programme installiert werden:
 *(Ein paar sind ausgelassen, die nicht verwendet werden.)*
@@ -95,6 +95,18 @@ In diesem Beispiel wird über den Link `http://192.168.0.10/yey` die Website `we
     > awesome.html
 ```
 
+##### DNS-Server
+
+![](https://i.postimg.cc/Bnn0KdRT/image.png)
+
+Auch DNS-Server müssen zunächst gestartet werden.
+
+Jeder DNS-Server enthält eine Liste von Zuweisungen. Andere PCs können, wenn dort dieser DNS-Server als IP eingetragen wurde, die Domains zu IPs auflösen lassen.
+
+![](https://i.postimg.cc/P5LNspKv/image.png)
+
+Dies ist der Nameserver-Tab, denn es wäre unpraktisch alle Domains wieder und wieder in jeden DNS-Server eintragen zu müssen. Daher kann man hier auf andere DNS-Server verweisen, an die unbekannte Domainanfragen weitergeleitet werden sollen. Die Domain `.` steht für "Alle Anfragen", hier werden alle .de-Domains weitergeleitet. Der Nameserver `dns.de` muss bei den Adressen auch noch angegeben werden.
+
 ## 🔌 Switch <a name="kap3"></a>
 
 Der sogenannte **Switch** in Filius ermöglicht das Verbinden von vielen Geräten an dieselbe Leitung. An einen Switch kann eine nicht begrenzte Anzahl an Geräten angeschlossen werden, jede Verbindung selbst (per Kabel) ist aber trotzdem Ende-zu-Ende. Der Switch verteilt die Daten dann jeweils an die richtigen MAC-Adressen weiter.
@@ -126,6 +138,23 @@ Es kann folgendes eingestellt werden:
 | IP-Adresse des Netzes (oder Gerätes), an das gesendet werden soll. | Subnetzmaske des Ziels. | Ein Router, an den die Daten weiter gesendet werden sollen, wenn sie zu dem "Ziel" sollen. | Die IP-Adresse des gewünschten Ausgangs am eigenen Router. |
 
 ***Tipp:*** *Nimm den Haken bei "Alle Einträge anzeigen" heraus, um nur die wichtigen Einträge in der Tabelle zu sehen.*
+
+##### Firewall
+
+![](https://i.postimg.cc/85yqSH1h/image.png)
+
+In der Übersicht kann die Firewall aktiviert werden und es gibt folgende Einstellungen:
+
+- "ICMP-Pakete filtern" => Ob z.B. Ping anfragen in der Firewall hängen bleiben sollen
+- "nur SYN-Pakete verwerfen" => Öffnet automatisch den Rückkanal von erlaubten Anfragen.
+
+![](https://i.postimg.cc/brxVv9PC/image.png)
+
+Hier können IP und Subnetzmaske jeweils aus dem Quellnetz und Zielnetz eingetragen werden - Frei lassen zum Aktivieren von allen. Die Spalten sollten sich selbst erklären.
+
+Oben kann die Standardaktion eingetragen werden, also was ohne Regel passieren soll.
+
+Wichtig ist noch, dass Regeln höher in der Liste auch höhere Priorität haben.
 
 ## 🔗 Modem <a name="kap5"></a>
 

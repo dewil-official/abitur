@@ -72,7 +72,7 @@ Hier ist meine persönliche ToDo-Liste für die Erstellung dieses Lernzettels:
   - [x] Protokolle
     - [x] Ergänzung mit Referatsthemen
   - [x] Subnetting
-  - [ ] Filius Ergänzung (Routing / Firewalls)
+  - [x] Filius Ergänzung (Routing / Firewalls)
   - [ ] Erstellen von Übungsaufgaben
 
   
