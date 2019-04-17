@@ -14,8 +14,6 @@ Dies ist der Lernzettel für die IT Klausur - Basierend auf dem herausgegebenen 
 8. [🌠 Schleifen](#kap8)
 9. [🐫 Ausgaben](#kap9)
 10. [✨ Sauberen Code schreiben!](#kap10)
-11. [👓 Übungsaufgaben](#kap11)
-12. [🎀 Lösungen](#kap12)
 
 ### Legende
 
@@ -580,58 +578,3 @@ if ( a >= 3 ) {
 
 **Nutze sie!** Nicht jede Zeile muss kommentiert werden, aber zu beschreiben, wie Du ein bestimmtes Problem gelöst hast, ist wichtig! Du selbst wirst diesen Code dadurch sehr viel einfacher lesen können, genauso wie alle anderen Leute, die deinen Code lesen.
 
-------
-
-## 👓 Übungsaufgaben <a name="kap11"></a>
-
-### Kurzaufgaben
-
-##### 1. "Die magische Konsole" 📋
-
-- Erstelle ein neues Greenfoot-Projekt und benenne die Welt um.
-- Erstelle in dieser Welt eine neue Methode, die die Konsole starten soll.
-- Diese Methode soll im Konstruktor der Welt ausgeführt werden.
-- Nutze den Befehl `System.out.println()`, um 30x abwechselnd "a" und "b" in die Konsole auszugeben.
-
-##### 2. "Ninja-Baby" 🐱‍👤
-
-- Importiere die Vorlage aus dem [/java/vorlagen](../java/vorlagen) - Ordner!
-- Lasse das Baby vorwärts laufen.
-- Wenn das Baby die rechte Kante erreicht, soll es automatisch wieder nach links teleportiert werden. Du kannst die Positionen mit `getX()` oder `getY()` erhalten und die Position mit `setLocation(x, y)` setzen.
-- Anstatt sich zu teleportieren, soll sich das Baby jetzt mit `turn(180)` gedreht werden und denselben Weg wieder an die linke Bildschirmkante zurück laufen. Dort soll es sich wieder drehen und normal laufen etc.
-- Wenn das Baby von rechts nach links läuft, soll die Geschwindigkeit stark erhört werden.
-
-##### 3. "Synchronität" 🔢
-
-- Erstelle ein neues Greenfoot-Projekt und einen neuen Actor.
-
-- Diese Actorklasse soll später mehrfach als Objekt platziert werden. Die verschiedenen Objekte sollen später auch verschiedene Dinge tun, aber in einem Muster. Als erstes soll sich dazu dein Actor in einem Rechteck bewegen: Er soll sich bei jedem Act mithilfe von `move(x)` bewegen und alle 30 act()'s die Richtung um 90° mithilfe von `turn(90)` ändern.
-
-- Platziere den Actor 4x in der Mitte deiner Welt und speichere die Welt mit einem Rechtsklick ins Fenster.
-
-- Für jede der 4 Richtungen, in die sich der Actor bewegt, soll er eine andere Textur erhalten. Nutze dafür 
-
-  ```java
-  GreenfootImage textureObj = new GreenfootImage(  dateiname.png  );
-  setImage(textureObj);
-  ```
-
-### Projektaufgaben
-
-...
-
-### Finde-den-Fehler
-
-...
-
-------
-
-## 🎀 Lösungen <a name="kap12"></a>
-
-### Kurzaufgaben & Projektaufgaben
-
-**Musterlösungen** findest Du [hier](../java/lösungen)! (Auf meinem GitHub)
-
-### Finde-den-Fehler
-
-...
