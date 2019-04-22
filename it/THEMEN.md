@@ -8,10 +8,10 @@ Auf dieser Seite soll eine **Übersicht aller Themen**, die in der IT-Abiturprü
 
 Hier findest Du die drei Haupt-Lernzettel für die jeweiligen Fächer:
 
-- [Java](pages/JAVA.md) *100%*
-- [Steuerungstechnik](pages/STEUERUNG.md) *85%*
-- [Netzwerktechnik](pages/NETZWERKE.md) *85%*
-  - [Filius](pages/FILIUS.md) *85%*
+- [Java](pages/JAVA.md)
+- [Steuerungstechnik](pages/STEUERUNG.md)
+- [Netzwerktechnik](pages/NETZWERKE.md)
+  - [Filius](pages/FILIUS.md)
 
 ------
 
@@ -65,7 +65,6 @@ Hier ist meine persönliche ToDo-Liste für die Erstellung dieses Lernzettels:
   - [x] Codes
   - [x] Steuern & Regeln
   - [x] Begriffe der IT
-  - [ ] Erstellen von Übungsaufgaben
 
 - [x] Netzwerktechnik
 
@@ -75,7 +74,6 @@ Hier ist meine persönliche ToDo-Liste für die Erstellung dieses Lernzettels:
     - [x] Ergänzung mit Referatsthemen
   - [x] Subnetting
   - [x] Filius Ergänzung (Routing / Firewalls)
-  - [ ] Erstellen von Übungsaufgaben
 
   
 
@@ -87,14 +85,14 @@ Hier ist meine persönliche ToDo-Liste für die Erstellung dieses Lernzettels:
 
 ### 🏝 Java-Aufgaben
 
-##### 1. "Die magische Konsole" 📋 - [Lösung](java/lösungen/Aufgabe 1 - Magische Konsole.gfar)
+##### 1. "Die magische Konsole" 📋 - [Lösung]("java/lösungen/Aufgabe 1 - Magische Konsole.gfar")
 
 - Erstelle ein neues Greenfoot-Projekt und benenne die Welt um.
 - Erstelle in dieser Welt eine neue Methode, die die Konsole starten soll.
 - Diese Methode soll im Konstruktor der Welt ausgeführt werden.
 - Nutze den Befehl `System.out.println()`, um 30x abwechselnd "a" und "b" in die Konsole auszugeben.
 
-##### 2. "Ninja-Baby" 🐱‍👤 - [Lösung](java/lösungen/Aufgabe 2 - Ninja Baby.gfar)
+##### 2. "Ninja-Baby" 🐱‍👤 - [Lösung]("java/lösungen/Aufgabe 2 - Ninja Baby.gfar")
 
 - Importiere die Vorlage aus dem [/java/vorlagen](java/vorlagen) - Ordner!
 - Lasse das Baby vorwärts laufen.
@@ -102,7 +100,7 @@ Hier ist meine persönliche ToDo-Liste für die Erstellung dieses Lernzettels:
 - Anstatt sich zu teleportieren, soll sich das Baby jetzt mit `turn(180)` gedreht werden und denselben Weg wieder an die linke Bildschirmkante zurück laufen. Dort soll es sich wieder drehen und normal laufen etc.
 - Wenn das Baby von rechts nach links läuft, soll die Geschwindigkeit stark erhört werden.
 
-##### 3. "Synchronität" 🔢 - [Lösung](java/lösungen/Aufgabe 3 - Synchronität.gfar)
+##### 3. "Synchronität" 🔢 - [Lösung]("java/lösungen/Aufgabe 3 - Synchronität.gfar")
 
 - Erstelle ein neues Greenfoot-Projekt und einen neuen Actor.
 
@@ -117,7 +115,7 @@ Hier ist meine persönliche ToDo-Liste für die Erstellung dieses Lernzettels:
   setImage(textureObj);
   ```
 
-##### 4. "Finde die Fehler" 📍 - [Lösung](java/lösungen/Aufgabe 4 - Finde den Fehler.md)
+##### 4. "Finde die Fehler" 📍 - [Lösung]("java/lösungen/Aufgabe 4 - Finde den Fehler.md")
 
 ```java
 /*
@@ -156,10 +154,3 @@ public class GeneratePyramidExample {
 	}
 }
 ```
-
-### 🎛 Steuerungstechnik-Aufgaben
-
-##### 1.
-
-*[Mehr Aufgaben folgen]*
-

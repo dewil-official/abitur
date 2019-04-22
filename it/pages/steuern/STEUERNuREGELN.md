@@ -45,3 +45,6 @@ Die Einteilung kann entweder nach der Signalverarbeitung oder nach der Programmi
 
 ##### Einteilung nach Art der Programmierung
 
+- **Verbindungs**programmierte Steuerungen geben den Programmablauf durch Bauteile und deren Verbindungen fest vor.
+- **Speicher**programmierte Steuerungen (SPS) legen den Programmablauf durch ein Programm fest.
+
