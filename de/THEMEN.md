@@ -10,6 +10,5 @@ Auf dieser Seite soll eine Übersicht aller Themengebiete, die in der Deutsch-Ab
 
 ## Epochen-Timeline
 
-<iframe width="100%" height="400" src="https://time.graphics/embed?v=1&id=261674" frameborder="0" allowfullscreen></iframe>
-<div><a  style="font-size: 12px; text-decoration: none;" title="Powered by Time.Graphics" href="https://time.graphics">Powered by Time.Graphics</a></div>
+![Timeline](https://i.postimg.cc/cH0Jdd2t/image.png)
 
