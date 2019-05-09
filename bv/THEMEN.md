@@ -6,8 +6,8 @@ In diesem Lernzettel werden **alle 4 Themenblöcke** behandelt, wobei Ich natür
 
 **Themen:**
 
-- *"Standort Deutschland"*
+- *"Standort Deutschland"* - [Link](STANDORT_DE.md) - *Mein Schwerpunktthema*
 - *"Leistungserstellungsprozesse"*
-- *"Sozialpolitik"*
+- *"Sozialpolitik"* - *Mein Schwerpunktthema*
 - *"KLR"*
 
