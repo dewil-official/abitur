@@ -14,3 +14,4 @@
 
 Das Modell des Wirtschaftskreislaufs stellt *vereinfacht* die komplexen Wirkungsabläufe in der Wirtschaftswelt wieder.
 
+!["ErwWirtschaftskreislauf.png"](assets/ErwWirtschaftskreislauf.png)
