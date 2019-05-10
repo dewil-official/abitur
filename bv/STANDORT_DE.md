@@ -36,3 +36,15 @@ Dieser Lernzettel basiert zu sehr großen Teilen auf dem [Zusatzzettel](ZUSATZ.m
 
 #### 1. Staatliche Regelungen
 
+- Die **Wirtschaftsordnung** ist wichtig.
+  - Auch die **Verlässlichkeit / Beständigkeit** der Politik ist von großer Bedeutung
+- Die **Steuern**
+- **Außenwirtschaftliche Regelungen** z.B. Zölle, Staatengemeinschaften etc.
+- **Umweltschutzmaßnamen**
+- **staatliche Hilfen**
+  - **Wirtschaftsförderung**
+  - **Wachstums- und Strukturpolitik**
+
+#### 2. Beschaffungsorientierte Faktoren
+
+- 
