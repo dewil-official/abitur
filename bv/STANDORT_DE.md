@@ -6,8 +6,8 @@ Dieser Lernzettel basiert zu sehr großen Teilen auf dem [Zusatzzettel](ZUSATZ.m
 
 - [Grundlegendes](#grundlegendes)
 - [Standortfaktoren](#faktoren)
-- Staatliche Beeinflussung der Standortwahl
-- Wettbewerbsposition und Anpassungsprozesse
+- [Staatliche Beeinflussung der Standortwahl](#s_einfluss)
+- [Wettbewerbsposition und Anpassungsprozesse](#w_u_a)
 
 ## Grundlegendes <a name="grundlegendes"></a>
 
@@ -47,4 +47,49 @@ Dieser Lernzettel basiert zu sehr großen Teilen auf dem [Zusatzzettel](ZUSATZ.m
 
 #### 2. Beschaffungsorientierte Faktoren
 
-- 
+- **Infrastruktur**
+- Manchmal **natürliche Energiequellen**
+- Beschaffung von **Arbeitskräften**
+  - Damit verbundene **Arbeitskosten**
+  - Evtl. Vorteil bei Niederlassung in der Nähe ähnlicher Betriebe => Bereits vorhandene Arbeitskräfte
+
+#### 3. Fertigungsorientierte Faktoren
+
+- Ob sich der Boden und das Klima für die Produktion eignen
+
+#### 4. Absatzorientierte Faktoren
+
+- **Absatzpotential**
+  - Bevölkerungsstruktur
+  - Kaufkraft
+  - "Herkunftsgoodwill" - Guter Ruf
+- **Verkehr**
+  - Verkehrsanbindung
+  - Versandkosten
+- **Absatzkontakte**
+- Absatzhilfen wie Werbung, Handelsvertreter, Makler, Messen etc.
+
+## Staatliche Beeinflussung <a name="s_einfluss"></a>
+
+#### Notwendigkeit
+
+Staatliche Standortfaktoren **verändern sich häufig** aufgrund der sich ständig verändernden binnen- und außenwirtschaftlichen, technischen, sozialen und demografischen Bedingungen.
+
+Auch muss die Standortwahl der Unternehmen oft von staatlicher Seite eingeschränkt werden, um *Umweltschutz*, *Arbeitsplätze* und *Infrastruktur* zu verbessern.
+
+#### Mögliche Zielkonflikte
+
+Immer wenn die Verfolgung eines politischen Ziels ein anderes Ziel gefährdet, dann liegt ein **Zielkonflikt** vor.
+
+## Wettbewerbsposition und Anpassungsprozesse <a name="w_u_a"></a>
+
+Zu den Stärken und Schwächen des Standorts Deutschland gehören:
+
+| Vorteile                          | Nachteile                                  |
+| --------------------------------- | ------------------------------------------ |
+| Stabilität                        | Mangelnde Flexibilität des Arbeitsrechts   |
+| Transparenz                       | Hohe Arbeitskosten und Unternehmenssteuern |
+| Infrastruktur                     |                                            |
+| Qualitätsniveau der Arbeitskräfte |                                            |
+| Soziales Klima                    |                                            |
+
