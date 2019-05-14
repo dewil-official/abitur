@@ -8,6 +8,14 @@
 
 
 
+Todo:
+
+- Grundbegriffe (Gewinn, Umsatz etc.)
+- Unternehmensformen
+- Inflation
+
+
+
 ------
 
 ## Wirtschaftskreislauf <a name="kreislauf"></a>
