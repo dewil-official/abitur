@@ -6,11 +6,11 @@
 
 1. [Zielsetzungen](#ziele)
 2. [Aktionsfelder](#aktionsfelder)
-   3. [Arbeitsmarktpolitik](#arbeit)
-   2. [Konjunkturpolitik](#konjunktur)
-   3. [Geldpolitik](#geld)
-   4. [Sozialpolitik](#sozial)
-   5. [Umweltpolitik](#umwelt)
+3. [Arbeitsmarktpolitik](#arbeit)
+4. [Konjunkturpolitik](#konjunktur)
+5. [Geldpolitik](#geld)
+6. [Sozialpolitik](#sozial)
+7. [Umweltpolitik](#umwelt)
 
 ## Zielsetzungen <a name="ziele"></a>
 
@@ -146,11 +146,66 @@ Bedingt durch diese Faktoren gibt es **natürliche Grenzen**: Die *Rohstoff- und
   - *Marktkonforme Maßnahmen* umfassen eine Regelung der Nachfrage und Produktion.
   - *Marktkonträre Maßnahme* umfassen Verbote und Grenzwerte.
 
+#### 🌋 Zielkonflikte und Kompromisse
+
+> - **Zielharmonie** liegt vor, wenn eine Maßnahme mehreren Zielen dient.
+> - Ein **Zielkonflikt** liegt vor, wenn eine Maßnahme einem Ziel dient und einem anderen Ziel schadet.
+> - **Zielindifferenz** liegt vor, wenn eine Maßnahme nur genau ein Ziel beeinflusst. *(Und keine anderen!)*
+
+In der Regel ist es **unmöglich**, *alle Ziele gleichzeitig* zu verfolgen.
+
+Folge: Es müssen **Kompromisse** eingegangen werden!
+
 ## Aktionsfelder <a name="aktionsfelder"></a>
 
+**Wirtschaftspolitische Aktionsfelder** *(also die nächsten Abschnitte dieses Lernzettels)* dienen der Erreichung der wirtschaftspolitischen Zielsetzungen. Jedes Kapitel enthält: **Ziele, Erreichung, Folgen**
 
+- 👨🏻‍🔧 Arbeitsmarktpolitik
+- 📊 Konjunktur
+- 💸 Geldpolitik
+- 🙏🏻 Sozialpolitik
+- 🌲 Umweltpolitik
 
 ## Arbeitsmarktpolitik <a name="arbeit"></a>
+
+#### Ziele
+
+*Beseitigung* der **Arbeitslosigkeit**, Schaffung *neuer Arbeitsplätze*, *Verbesserung* der Arbeitsplatzverteilung.
+
+#### Definition
+
+> **Arbeitslos** sind alle Personen, die **arbeitsfähig** und **willig** sind, aber keine Beschäftigung finden.
+
+Zur Erfassung der Arbeitslosigkeit wird die **prozentuale Quote der Arbeitlosen** berechnet. Dazu gibt es 2 Verfahren:
+
+- Der Anteil der registrierten Arbeitslosen von der Gesamtzahl der unselbstständigen Erwerbspersonen.
+- Der Anteil der registrierten Arbeitslosen von der Gesamtzahl aller Erwerbspersonen.
+
+In Deutschland gilt eine Quote von 1-2% als **Vollbeschäftigung**.
+
+In dieser Quote fehlt allerdings die Berücksichtigung der **nicht registrierten Arbeitslosen**.
+
+##### Arten der Arbeitslosigkeit
+
+Zur *Bekämpfung* der Arbeitslosigkeit muss Ursachenforschung betrieben werden. Dazu unterscheidet man zwischen verschiedenen **Arten der Arbeitslosigkeit**:
+
+1. **Friktionelle Arbeitslosigkeit**: Arbeitslosigkeit, die beim Wechsel zwischen den Berufen entsteht.
+   Diese Form bleibt dauerhaft erhalten.
+2. **Nachfragebedingte Arbeitslosigkeit**: Schwankungen in der Nachfrage, teils saisonal oder konjunkturell bedingt, können für Arbeitslosigkeit sorgen.
+   1. **Saisonale Arbeitslosigkeit**: Durch den Wechsel der Jahreszeiten bedingt, z.B. Hotelgewerbe. Zur Berechnung müssen saisonale Differenzen herausgerechnet werden.
+   2. **Konjunkturelle Arbeitslosigkeit**: Die Konjunktur hat Einfluss auf Produktion und Beschäftigung, sodass auch die Arbeitslosigkeit beeinflusst wird.
+3. **Angebotsbedingte Arbeitslosigkeit**: Die Zahl oder Art der offenen Stellen sorgt für eine gewisse Arbeitslosigkeit. Beeinflusst wird das Angebot u.a. durch folgende Faktoren:
+   1. *Lohnkosten:* Die Unternehmen können sich die Arbeitskräfte nicht leisten oder die Stellen lohnen sich für suchende Arbeiter nicht. Ein höherer Mindestlohn begünstigt das in der Regel.
+   2. *Produktionskosten:* Oft sind die Produktionskosten im Inland durch Steuern / Umweltschutz zu teuer - Daher wird oft im Zuge der Globalisierung im Ausland produziert.
+   3. *Geringe Flexibilität:* In Deutschland fehlen die Möglichkeiten für z.B. unbezahlten Urlaub, flexiblere Arbeitszeiten für verschiedene Umstände, oder lange Kündigungsfristen.
+   4. *Unzureichende Ausbildung:* Mangel an Qualifikation für aktuelle Stellenangebote
+   5. *Berufliche und Räumliche Diskrepanz:* An einem Ort fehlen z.B. Arbeitsplätze und an dem anderen Ort fehlen Arbeiter.
+
+#### Erreichung
+
+
+
+#### Folgen
 
 
 
