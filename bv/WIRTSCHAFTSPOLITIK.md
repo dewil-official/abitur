@@ -114,11 +114,37 @@ Bei der *Preissteigerung im Vergleich zum Vorjahr* spricht man auch von **Inflat
 
 ##### 📊 Stetiges Wirtschaftswachstum
 
-> Um langfristigen Wohlstand zu gewährleisten, sollte es ein **langfristig stetiges Wirtschaftswachstum** geben. Als *Indikator* wird in der Regel das **BIP** verwendet (dort sind aber Verfälschungen wie Schwarzarbeit nicht einbezogen).
+> Um langfristigen Wohlstand zu gewährleisten, sollte es ein **langfristig stetiges Wirtschaftswachstum** geben. Als *Indikator* wird in der Regel das ("reale") **BIP** verwendet (dort sind aber Verfälschungen wie Schwarzarbeit nicht einbezogen).
 
 - Schwieriger als *stetiges* Wachstum ist ein **angemessenes Wachstum** festzustellen. Denn: Was ist angemessen? Diese Frage muss politisch geklärt werden.
+- Das "reale" BIP neutralisiert Inflationsbedinge Preisveränderungen.
 
-Um das stetige Wirtschaftswachstum zu gewährleisten (abhängig vom *realen* BIP) 
+Das *stetige Wirtschaftswachstum* ist abhängig von **folgenden Faktoren**:
+
+- ⚡ Ausreichend zur Verfügung stehende Rohstoff- und Energiequellen (Ressourcen)
+- 💰 Hohe Sparrate, die hohe Investitionen ermöglicht
+- 🏭 Gute Ausbildung der arbeitenden Bevölkerung (*"Know-How"*)
+- 🚆 Ausgebaute Infrastruktur
+- 🧠 Optimistische Zukunftserwartungen der Wirtschaftssubjekte
+- 🛒 Sicherer (steigender) Absatz mit angemessenen Unternehmensgewinnen
+
+Bedingt durch diese Faktoren gibt es **natürliche Grenzen**: Die *Rohstoff- und Energievorräte* sind begrenzt, die *Bevölkerungszahl* stagniert in hochentwickelten Ländern und die *Umweltbelastung* nimmt zu.
+
+##### 🕴🏻 Sozial verträgliche Einkommens- und Vermögensverteilung *(Qualitatives Ziel)*
+
+> Eine **gleichmäßigere** Einkommensverteilung unter den **sozialen Gruppen**.
+
+- Erhöhung der **Lohnquote**
+
+- **Schwieriges** Ziel aufgrund der geltenden *Tarifautonomie*, Tarifpartner also selbstständig die Arbeitsentgelte vereinbaren dürfen.
+
+##### 🌲 Erhaltung der natürlichen Lebensgrundlagen *(Qualitatives Ziel)*
+
+> Die Umwelt **lebenswert zu erhalten** und zu sie verbessern.
+
+- Es sollten möglichst **Marktkonforme Maßnahmen** statt **Marktkonträren Maßnahmen** erfolgen.
+  - *Marktkonforme Maßnahmen* umfassen eine Regelung der Nachfrage und Produktion.
+  - *Marktkonträre Maßnahme* umfassen Verbote und Grenzwerte.
 
 ## Aktionsfelder <a name="aktionsfelder"></a>
 
