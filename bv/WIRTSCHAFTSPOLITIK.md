@@ -158,7 +158,7 @@ Folge: Es müssen **Kompromisse** eingegangen werden!
 
 ## Aktionsfelder <a name="aktionsfelder"></a>
 
-**Wirtschaftspolitische Aktionsfelder** *(also die nächsten Abschnitte dieses Lernzettels)* dienen der Erreichung der wirtschaftspolitischen Zielsetzungen. Jedes Kapitel enthält: **Ziele, Erreichung, Folgen**
+**Wirtschaftspolitische Aktionsfelder** *(also die nächsten Abschnitte dieses Lernzettels)* dienen der Erreichung der wirtschaftspolitischen Zielsetzungen. Jedes Kapitel enthält ~: **Ziele, Erreichung, Folgen**
 
 - 👨🏻‍🔧 Arbeitsmarktpolitik
 - 📊 Konjunktur
@@ -200,12 +200,37 @@ Zur *Bekämpfung* der Arbeitslosigkeit muss Ursachenforschung betrieben werden. 
    3. *Geringe Flexibilität:* In Deutschland fehlen die Möglichkeiten für z.B. unbezahlten Urlaub, flexiblere Arbeitszeiten für verschiedene Umstände, oder lange Kündigungsfristen.
    4. *Unzureichende Ausbildung:* Mangel an Qualifikation für aktuelle Stellenangebote
    5. *Berufliche und Räumliche Diskrepanz:* An einem Ort fehlen z.B. Arbeitsplätze und an dem anderen Ort fehlen Arbeiter.
-
-#### Erreichung
-
-
+4. **Strukturelle Arbeitslosigkeit**: Die *Struktur* entsteht durch ein *Gleichgewicht* zwischen *Angebot & Nachfrage* bei den Gütern und den Arbeitsplätzen. Die Struktur unterliegt einem dauerhaften Wandel durch Technik oder politische Ereignisse. Man spricht in diesem Zusammenhang auch von **Strukturwandel**. Je nach Bezug kann es sich um *sektoralen* Strukturwandel (z.B. Bergbau, Schiffbau, etc.) oder um *regionalen* Strukturwandel (geografischer Bezug) handeln.
+5. **Sonstige Ursachen**: 
+   1. *Gesetzliche und administrative Hemmnisse:* Staatliche Vorschriften, z.B. Kündigungsvorschriften
+   2. *Reformstau:* Die Nichtdurchführung notwendiger Reformen
+   3. *Wirtschaftspolitische Entscheidungen:* z.B. Staatsverschuldung, Sparmaßnahmen und Subventionspolitik
+   4. *Außenwirtschaftliche Bedingungen:* Die Wechselkursentwicklung beeinflusst auch die Beschäftigung.
+   5. *Zinspolitik der Zentralbank:* Hohe Zinssätze verlangsamen die Investitionen - Dadurch entstehen weniger neue Arbeitsplätze
+   6. *Managementfehler:* Führen zu Arbeitsplatzverlusten, bedingt durch Firmenverluste
+   7. *Mangelnde Risikobereitschaft:* Zu konservative oder stabile Entscheidungen verhindern teils die Schaffung neuer Arbeitsplätze.
+   8. *Steigende Arbeitsproduktivität:* Bei steigender Produktivität, z.B. durch technischen Fortschritt braucht man auch weniger Arbeitskräfte um dieselbe Arbeit zu verrichten.
+   9. *Sockelarbeitslosigkeit:* Die benötigte Qualifikation steigt langsam, dadurch wird es für längerfristig Arbeitslose immer schwieriger eine Arbeit zu finden.
+   10. *Sättigungstendenzen:* Bestimmte Konsumgüter gibt es in jedem Haushalt, sodass sich eine Sättigung in der Nachfrage eingestellt hat. z.B. Waschmaschinen. Sobald jeder eine hat, braucht man nicht mehr so viele neue.
+   11. *Schattenwirtschaft:* Schwarzarbeit, die vor allem durch eine zu hohe Steuerbelastung entsteht, verringert auch das Verlangen nach einem Arbeitsplatz des jeweiligen.
 
 #### Folgen
+
+##### Auswirkungen auf den Arbeitslosen
+
+- Eine **Einzelentlassung** führt oft zur Isolation, Entsolidarisierung, wie auch zu einer Belastung durch verschiedenste Klischees.
+- Eine **Massenentlassung** führt zu einer "schuldlosen" Entlassung, oft durch Rationalisierungsmaßnahmen des Unternehmens.
+
+##### Auswirkungen auf die Transferzahlungen
+
+- Das **Arbeitslosengeld** fließt aus Steuerabgaben in die Taschen der Empfänger
+- Es kann **Sozialgeld** gewährt werden, wenn existenzielle Not besteht durch Krankheit o.ä.
+- **Wohngeld**
+- Die große Menge der Transferzahlungen kann nur durch einen großen Beschäftigungsstand finanziert werden. Bei steigender Arbeitslosigkeit müssen auch Sozialleistungen gekürzt werden und das begünstigt unter Umständen das Entstehen neuer Arbeitslosigkeit und Schwarzarbeit. Arbeitslosigkeit kann also eine Abwärtsspirale entstehen lassen, wenn die Arbeitslosenquote nicht politisch abgesichert wird.
+
+#### Maßnahmen
+
+##### Kurzfristige nachfrageorientierte Maßnahmen
 
 
 

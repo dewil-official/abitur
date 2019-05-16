@@ -13,6 +13,9 @@ Todo:
 - Grundbegriffe (Gewinn, Umsatz etc.)
 - Unternehmensformen
 - Inflation
+- "Wirtschaftsgeflecht"
+- Investitionen
+- Aktienmarkt
 
 
 
