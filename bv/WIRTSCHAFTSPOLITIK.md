@@ -232,11 +232,61 @@ Zur *Bekämpfung* der Arbeitslosigkeit muss Ursachenforschung betrieben werden. 
 
 ##### Kurzfristige nachfrageorientierte Maßnahmen
 
+*Diese Maßnahmen versuchen die Nachfrage zu erhöhen, um neue Arbeitsplätze zu schaffen.*
 
+- (Staatlich:) Erhöhung der Staatsausgaben / Senkung der Staatseinnahmen
+- Da es für alle Euro-Länder nur einen Leitzins geben kann, sind Konflikte nicht auszuschließen.
+  - Länder mit hoher Arbeitslosigkeit bräuchten einen niedrigen Leitzins
+  - Länder mit niedriger Arbeitslosigkeit bräuchten einen hohen Leitzins
+- (Nicht-Staatlich:) Durchsetzung von Lohnerhöhung => Kurbelt Konsum an (Wirtschaftskreislauf)
+
+##### Langfristige angebotsorientierte Maßnahmen
+
+*Diese Maßnahmen versuchen direkt und langfristig das Angebot zu vergrößern.*
+
+- Senkung der Arbeitskosten => Löhne sinken und mehr Arbeitsplätze entstehen
+  - *Offene Tarifverträge:* Es ist möglich, die Arbeiter durch eine *Tariföffnungsklausel* zeitweise unter Tarif zu bezahlen.
+  - *Senkung Lohnnebenkosten:* Durch mutige Reform der Sozialversicherungen.
+  - *Kombilöhne:* Ein Lohnmodell bei dem der Arbeiter ungefähr in Höhe der Grundsicherung verdient, aber in gewissen Grenzen dazuverdienen kann.
+  - *Flexibilisierung:* Teilzeitarbeit und Leiharbeit als Berufseinstieg
+- Deregulierung: Abbauen strikter Regeln wie Arbeitnehmerschutz zum Freisetzen unternehmerischer Kräfte
+- Bessere Rahmenbedingungen für private Investoren: Höhere Planungssicherheit, Berechenbarkeit
+
+##### Strukturpolitische Maßnahmen
+
+*Langfristige Maßnahmen zur Absicherung des Wachstums und der Beschäftigung.*
+
+- Sektorale Strukturpolitik: Förderung bestimmter Wirtschaftszweige
+- Regionale Strukturpolitik: Förderung bestimmter Regionen, wie auch Infrastruktur
+
+##### Sonstige Maßnahmen
+
+- Beseitigung des Fachkräftemangels, z.B. durch Migration
+- Förderung von Bildung und Forschung
+- Aktive Arbeitsmarkpolitik - Berufliche Fortbildung, Umschulungen etc.
+- Arbeitszeitverkürzung: Schlechte Maßnahme, da kosten/zeit gleich bleiben müssen und genug Arbeitslose zur Verfügung stehen müssen
+- Förderung öffentlicher Beschäftigung - Mit Finanzierung durch Steuern, Mehraufwandsentschädigungen & Zuschüsse
+- Verhinderung des Sozialmissbrauchs - wie hohe Arztrechnungen, Schwarzarbeit ...
 
 ## Konjunkturpolitik <a name="konjunktur"></a>
 
+> Die sog. **Konjunktur** bezeichnet mehrjährige Schwankungen in der Wirtschaft eines Landes.
+>
+> Die **Konjunkturschwankungen** werden in einem Zyklus von 4 Jahren gemessen.
 
+Der **Konjunkturverlauf** wird am *realen BIP* gemessen und als **Trend** angesehen. Es kann also einen *steigenden und fallenden Trend* geben, während Schwankungen als Abweichungen vom Trend gelten.
+
+- **Wachsende Volkswirtschaft:** Steigender Trend
+- **Stagnierende Volkswirtschaft:** Nullwachstum
+- **Schrumpfende Volkswirtschaft:** Fallender Trend
+
+Es gibt viele hunderte Theorien, woher die Konjunkturschwankungen kommen.
+
+> **Fiskalpolitik** ist die Einnahmen- und Ausgabenpolitik der Regierung und das Hauptmittel um die Konjunktur zu steuern. (Langes gleichmäßiges Wachstum ist erwünscht!)
+
+Die Konjunkturpolitik / Fiskalpolitik kann *antizyklisch* verlaufen, d.h. immer entgegen der Konjunkturschwankungen.
+
+- Der Staat neigt dazu, in konjunkturell guten Zeiten das Geld eher auszugeben als zu sparen. In konjunkturell schlechten Zeiten müssen dafür Kredite aufgenommen werden.
 
 ## Geldpolitik <a name="geld"></a>
 
