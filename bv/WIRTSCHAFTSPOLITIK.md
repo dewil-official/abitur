@@ -399,7 +399,89 @@ Die **gesetzliche Sozialversicherung** ist im Gegensatz zu der Privaten **verpfl
 - 🔌 **Arbeitslosenversicherung**
 - 🏡 **Pflegeversicherung**
 
+#### 👩🏻‍⚕️ Gesetzliche Krankenversicherung
 
+Die **Anmeldung** läuft über den Arbeitgeber. Bei Versäumnis läuft die Versicherung über die AOK.
+
+Eine **Pflicht** zur Versicherung besteht bei allen außer z.B. Beamten und einige Selbstständige. Diese können dann zur *privaten Krankenversicherung* wechseln.
+
+Die **Leistungen** sind gesetzlich vorgeschrieben, manche Kassen bieten allerdings Mehrleistungen an.
+
+- Vorbeugung & Früherkennung
+- Krankenbehandlung
+- Krankengeld
+- Schwangerschaft und Sonstiges
+
+**Zuzahlungen** sind für einige bestimmte Leistungen zu zahlen:
+
+- Medikamente
+- Häusliche Krankenpflege
+- Hilfsmitttel
+- Krankenhäuser
+- Brillen und Fahrkosten
+
+#### 🏡 Soziale Pflegeversicherung
+
+Diese Versicherung bietet eine **Unterstützung** für **häusliche Pflege** und **Pflegeheime**. Die Pflegebedürftigkeit ist also an die Bedürftigkeit einer regelmäßigen Unterstützung gekoppelt.
+
+Die Unterstützung wird anhand **dreier Pflegestufen** definiert:
+
+1. Mind. einmal täglich für einige Minuten
+2. Mind. dreimal täglich für mehrere Stunden
+3. Rund um die Uhr, auch nachts, viele Stunden
+
+Die **Pflicht** besteht für alle *Krankenversicherungspflichtige*, alternativ gibt es auch hier die *private Pflegeversicherung*.
+
+#### 👴🏻 Gesetzliche Rentenversicherung
+
+Die **Anmeldung** läuft über den Arbeitgeber.
+
+Eine **Pflicht** besteht für Auszubildende, Arbeiter und Angestellte unabhängig vom Einkommen (siehe *dynamische Beiträge*). Wer nicht mehr arbeitet, kann sich freiwillig weiter versichern lassen.
+
+Nach mindestens 5 Beitragsjahren und einem Alter zwischen 65 und 67 kann die **Regelaltersrente** in Anspruch genommen werden.
+
+**Langjährig Versicherte** können nach 45 Beitragsjahren schon mit 63 in Rente gehen.
+
+Zusätzlich können Renten wegen **Erwerbsminderung** oder wegen dem **Tod** des Ehegatten o.ä. gezahlt werden. Dafür müssen jeweils auch die 5 Beitragsjahre (genannt Wartezeit) erfüllt sein.
+
+Wichtig ist der **Demografische Wandel** der auf Dauer die *dynamischen* Rentenbeiträge beeinflusst.
+
+#### 🔌 Arbeitslosenversicherung
+
+Die **Anmeldung** erfolgt durch den Arbeitgeber.
+
+Eine **Pflicht** erfasst vor allem Auszubildende, Arbeiter & Angestellte. (*Einkommensunabhängig*)
+
+Ironischerweise soll die **Arbeitslosenversicherung** gerade die Arbeitslosigkeit *verhindern.* Dementsprechend ist eine große Aufgabe der Versicherung die **Beratung** , **Vermittlung** und **Förderung**.
+
+Es gibt folgende Leistungen:
+
+- Eingliederungsmaßnahmen (Förderung, Beratung und Vermittlung beim Arbeitsamt)
+- Arbeitslosengeld (Für Arbeitslose und bei beruflicher Weiterbildung. Nicht für Rentner)
+  - ALG I - Betroffener muss gearbeitet haben, Leistung je nach ehemaligem Gehalt, wird nur zeitweise gewährt.
+  - ALG II - Unbefristete Grundsicherung bei Bedürftigkeit (Sozialleistung) ein Bemühen des Arbeitslosen auf Jobsuche muss gezeigt werden.
+- Kurzarbeitergeld (für max. 6 Monate bei Arbeitsausfall)
+- Insolvenzgeld (für Arbeitnehmer einer insolventen Firma)
+- Existenzgründungszuschüsse (für Arbeitslose => Selbständigkeit)
+
+#### 🤸🏻‍♂️ Unfallversicherung
+
+Der **Unfallschutz** bezieht sich auf **Arbeitsunfälle**, d.h. alle Unfälle am Ort des Berufes, oder auf der dorthin notwendigen Fahrt.
+
+Eine **Versicherungspflicht** besteht für Arbeitnehmer, Auszubildende, Schüler, Kindergärten, Arbeitslose, die meisten Unternehmer etc. Wer nicht unter die Pflicht fällt, kann sich freiwillig versichern.
+
+Zum einen sorgt die *Unfallversicherung* für eine **Unfallverhütung** durch Vorschriften. Außerdem gibt es eine Reihe **finanzieller Leistungen** im Falle eines Unfalls.
+
+### Finanzierung der Versicherungen
+
+- **Beiträge** müssen zu 50/50 zwischen Arbeitgeber und -nehmer **aufgeteilt** werden.
+  - Arbeitgeberanteile werden teilweise an den Arbeitnehmer abgewälzt
 
 ## Umweltpolitik <a name="umwelt"></a>
+
+- Umweltpolitik versucht die **Umwelt zu schützen**.
+- Es gibt einen *Grundwiderspruch* zwischen **Ökologie** und **Ökonomie**.
+- Eine faire *Rohstoffverteilung*
+- Eine sichere *Energieverteilung*
+- Verträgliche *Rohstoffgewinnung*
 

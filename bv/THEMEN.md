@@ -6,19 +6,17 @@ In diesem Lernzettel werden **alle 4 Themenblöcke** behandelt, wobei Ich natür
 
 **Themen:**
 
-- 🏭 *"Standort Deutschland"* - [Link](STANDORT_DE.md) - *Mein Schwerpunktthema*
-- 🛠 *"Leistungserstellungsprozesse"* - Wird ausgelassen
-- 💸 *"[Wirtschaftspolitik](WIRTSCHAFTSPOLITIK.md)"/"Sozialpolitik"* - *Mein Schwerpunktthema*
-- 📋 *"KLR"* - Wird ausgelassen
+- 🏭 *"[Standort Deutschland](STANDORT_DE.md)"*
+- 💸 *"[Wirtschaftspolitik](WIRTSCHAFTSPOLITIK.md)"/"Sozialpolitik"*
+- ➕ [Zusatzzettel](ZUSATZ.md)
 
 
 
 ### 📈 Fortschritt
 
 - Standort DE *(Mein Schwerpunkt 1)*: **50%**
-- Leistungserstellungsprozesse: **0%**
-- Wirtschaftspolitik *(Mein Schwerpunkt 2)*: **60%**
-- KLR: **0%**
+- Wirtschaftspolitik *(Mein Schwerpunkt 2)*: **100%**
+- Zusatzzettel: **10%**
 
-*Ich werde meine Schwerpunktthemen sehr viel ausführlicher behandeln und die anderen beiden nur zusammenfassend.*
+*Ich werde meine Schwerpunktthemen sehr viel ausführlicher behandeln und die anderen beiden nur ohne Lernzettel.*
 
