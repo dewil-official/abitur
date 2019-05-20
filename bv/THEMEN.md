@@ -14,7 +14,7 @@ In diesem Lernzettel werden **alle 4 Themenblöcke** behandelt, wobei Ich natür
 
 ### 📈 Fortschritt
 
-- Standort DE *(Mein Schwerpunkt 1)*: **50%**
+- Standort DE *(Mein Schwerpunkt 1)*: **100%**
 - Wirtschaftspolitik *(Mein Schwerpunkt 2)*: **100%**
 - Zusatzzettel: **10%**
 

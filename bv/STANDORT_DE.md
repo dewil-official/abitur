@@ -93,3 +93,30 @@ Zu den Stärken und Schwächen des Standorts Deutschland gehören:
 | Qualitätsniveau der Arbeitskräfte |                                            |
 | Soziales Klima                    |                                            |
 
+# Fazit & Zusammenfassung
+
+Deutschland ist als Standort zuletzt *attraktiver geworden*, insbesondere durch **staatliche Maßnahmen** und den **internationalen Ruf**, z.B. in der Autoindustrie. Verbesserungsbedarf sehen Investoren hier:
+
+- Entwicklung neuer Technologie
+- Verbesserung der Steueranreize
+- Förderung des Unternehmergeistes
+- Neue Forschungsprojekte
+- Bürokratieabbau
+
+------
+
+Die **Standortfaktoren** lassen sich wie folgt einteilen:
+
+- 🚉 Beschaffung
+- 🔩 Fertigung
+- 📢 Absatz
+- 🏛 Staatliches
+
+------
+
+Zu **Bedenken** ist folgendes:
+
+- Die **Globalisierung** ermöglicht die Nutzung verschiedener Standortfaktoren im Ausland
+- **Stärken** in DE sind Stabilität, Transparenz, Infrastruktur, Qualifikationen, soziales Klima
+- **Schwächen** in DE sind mangelnde Flexibilität des Arbeitsrecht, hohe Arbeitskosten und Steuern
+
