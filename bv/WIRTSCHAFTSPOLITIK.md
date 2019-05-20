@@ -290,9 +290,114 @@ Die Konjunkturpolitik / Fiskalpolitik kann *antizyklisch* verlaufen, d.h. immer 
 
 ## Geldpolitik <a name="geld"></a>
 
+#### Begriffe
 
+> **Bargeld** bezeichnet alle Münzen und Banknoten.
+>
+> **Sichteinlagen** sind elektronisch gespeicherte Forderungen gegen die jeweilige Anlagestelle. Sichteinlagen können im Gegensatz zu anderen Einlageformen **jederzeit** eingefordert / gesichtet werden.
+
+Um die Geldmenge im Umlauf zu bestimmen fasst die EZB die Menge in 3 Sektoren:
+
+- **M1:** Bargeldumlauf + Sichteinlagen (Alles Geld im Umlauf)
+- **M2:** M1 + kurzfristige Einlagen (Kurzfristig angelegtes Geld, max. 2 Jahre)
+- **M3:** M2 + Sonstige Marktfähige Verbindlichkeiten (Weitestes Feld, z.B. Schulden, Aktien, ...)
+
+#### Funktionen des Geldes
+
+> Alles was die **Funktionen des Geldes** erfüllt, ist per Definition auch *Geld*.
+
+- Tauschmittel
+- Zahlungsmittel
+- Wertaufbewahrung
+- Rechnen
+- Wertübertragung
 
 ## Sozialpolitik <a name="sozial"></a>
+
+Um die Bindung zwischen *Wirtschaftssubjekten* und *Unternehmen* der sozialen Marktwirtschaft zu sichern, bedarf es einer **Sozialpolitik**. Das Ergebnis dieser Politik und ihrer Maßnahmen bezeichnet man als **Sozialordnung**. Verwirklicht wird diese Sozialordnung in Deutschland durch ein ***Netz sozialer Sicherungsmaßnahmen***.
+
+Im Rahmen der *Sozialpolitik* gibt es Aktivitäten in den folgenden Feldern:
+
+- **Beschäftigungspolitik**
+  - 👷🏻‍♂️ Hoher Beschäftigungsstand
+  - 🐱‍💻 Schaffung von Arbeitsplätzen
+  - 💬 Beratung, Vermittlung und Weiterbildung
+- **Verteilungspolitik**
+  - 💸 Steuerpolitik
+  - 👔 Vermögenspolitik
+  - 🙆🏻‍♂️ Sozialleistungen
+  - 📈 Preispolitik
+- **Arbeitsschutzpolitik**
+  - 📋 Schutz der materiellen Rechte
+  - 🐾 Arbeitsschutz
+- **Sozialversicherungen**
+  - 🏣 Krankenversicherung
+  - 🏡 Pflegeversicherung
+  - 🎩 Rentenversicherung
+  - 🔌 Arbeitslosenversicherung
+  - 🔨 Unfallversicherung
+- **Sonstige Maßnahmen**
+  - 🌲 Umweltschutz
+  - 🤕 Gesundheit
+  - 🎓 Bildung
+  - 🚗 Struktur
+
+*(Dies ist eine mehr oder weniger umfangreiche Abhandlung aller Bereiche unserer Sozialpolitik. Im Folgenden werden Verteilungspolitik und Sozialversicherungen näher beleuchtet.)*
+
+### Verteilungspolitik
+
+#### Primärpolitik
+
+Die **Primärpolitik** beschäftigt sich mit der *Verteilung des Lohns*, ggf. auch durch *indirekte Steuern*.
+
+Die *Lohnverteilung* ist unfassbar wichtig, da der Lohn die **wichtigste Einkommensart** ist und den einzelnen in die Lage versetzt menschenwürdig zu leben.
+
+Man unterscheidet bei der *Einkommensverteilung* zwischen **funktioneller** und **personeller** Verteilung:
+
+- **Funktionelle Verteilung** bezieht sich auf die Verteilung zwischen den **Produktionsfaktoren**, wie:
+  - Arbeitseinkommen
+  - Bodeneinkommen (z.B. Landwirtschaft, Immobilienmiete ...)
+  - Kapitaleinkommen (z.B. Aktien, Zinsen ...)
+  - Unternehmenseinkommen
+- **Personelle Verteilung** bezieht sich auf die Verteilung zwischen den **sozialen Gruppen**.
+
+Eine politische *Verteilung nach funktionalen Gesichtspunkten* ist quasi **unmöglich**, da sich die Beiträge der Bereiche zur gesamten Wirtschaft *nicht errechnen lassen*.
+
+#### Umverteilung des Einkommens
+
+Um eine gerechte Verteilung zu bewerkstelligen, muss anhand *fester Prinzipien* das **Ziel** der Verteilung **definiert** werden.
+
+1. *Prinzip der Einkommensverteilung:* "Jedem das Gleiche!" - In Deutschland in einer sehr grundlegenden ("sozialverträglichen") Form
+   - Abbau von Unzufriedenheit, Neid und Missgunst
+   - Kein Konkurrenzdruck, geringer Fortschritt
+2. *Bedarfsprinzip:* "Jedem nach seinen Bedürfnissen!" - Staffelung nach Alter, Familie und Beruf
+   - Berücksichtigung sozialer Gesichtspunkte
+   - Bedarf ist schwer festzustellen
+3. *Leistungsprinzip:* "Jedem nach seiner Leistung!" - Setzt Chancengleichheit vorraus
+   - Anreiz zur Mehrarbeit, Konkurrenz
+   - Schwer zu ermitteln, z.B. durch Unverschulden
+
+#### Lohnquote
+
+> Die **Lohnquote** ist der Anteil des Arbeitnehmereinkommen am Volkseinkommen.
+>
+> Die **Pro-Kopf-Lohnquote** ist die Lohnquote durch die Arbeitnehmerquote, d.h. der Anteil des Einzelnen am Volkseinkommen.
+
+*Beispiel: Beträgt das Volkseinkommen 1000 Mrd. € und belaufen sich die Bruttolöhne inkl. der Arbeitgeberanteile an Versicherungen auf 700 Mrd. €, beträgt die Lohnquote 70%. D.h. 30% gehen an Unternehmen o.ä.*
+
+### Sozialversicherungen
+
+> Die **soziale Sicherung** ist eine wesentliche Lebensgrundlage der Menschen.
+
+Die **gesetzliche Sozialversicherung** ist im Gegensatz zu der Privaten **verpflichtend**. Nach dem *Solidaritätsprinzip* stützt die Mehrheit den Einzelnen.
+
+##### Die Säulen der Sozialversicherung:
+
+- 👩🏻‍⚕️ **Krankenversicherung**
+- 🤸🏻‍♂️ **Unfallversicherung**
+- 👴🏻 **Rentenversicherung**
+- 🔌 **Arbeitslosenversicherung**
+- 🏡 **Pflegeversicherung**
 
 
 

@@ -17,7 +17,7 @@ In diesem Lernzettel werden **alle 4 Themenblöcke** behandelt, wobei Ich natür
 
 - Standort DE *(Mein Schwerpunkt 1)*: **50%**
 - Leistungserstellungsprozesse: **0%**
-- Wirtschaftspolitik *(Mein Schwerpunkt 2)*: **40%**
+- Wirtschaftspolitik *(Mein Schwerpunkt 2)*: **60%**
 - KLR: **0%**
 
 *Ich werde meine Schwerpunktthemen sehr viel ausführlicher behandeln und die anderen beiden nur zusammenfassend.*
